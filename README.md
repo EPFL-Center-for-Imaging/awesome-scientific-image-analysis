@@ -2,7 +2,7 @@
 ![epfl](./assets/epfl.jpeg)
 # Awesome Scientific Image Analysis
 
-A curated list of awesome scientific image analysis resources and software tools.
+A curated list of scientific image analysis resources and software tools.
 
 ## 🔖 Getting started
 
