@@ -1,6 +1,6 @@
 ![EPFL Center for Imaging logo](https://imaging.epfl.ch/resources/logo-for-gitlab.svg)
 ![epfl](./assets/epfl.jpeg)
-# Awesome Scientific Image Analysis
+# Awesome Scientific Image Analysis [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 A curated list of scientific image analysis resources and software tools.
 
