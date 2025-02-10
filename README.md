@@ -39,8 +39,8 @@ Read our **setup guide**:
 
 - [Awesome Biological Image Analysis](https://github.com/hallvaaw/awesome-biological-image-analysis)
 - [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision)
-- [A Hitchhiker's guide through the bio-image analysis software universe](https://febs.onlinelibrary.wiley.com/doi/full/10.1002/1873-3468.14451)
-- [ImageScience.org](https://imagescience.org/)
+- [Awesome Medical Imaging](https://github.com/fepegar/awesome-medical-imaging)
+<!-- - [ImageScience.org](https://imagescience.org/) -->
 
 **Guides**
 
@@ -56,6 +56,7 @@ Read our **setup guide**:
 
 **Papers**
 
+- [A Hitchhiker's guide through the bio-image analysis software universe](https://febs.onlinelibrary.wiley.com/doi/full/10.1002/1873-3468.14451) - Robert Haase et al.
 - [Towards effective adoption of novel image analysis methods](https://www.nature.com/articles/s41592-023-01910-2) - Talley Lambert, Jennifer Waters
 - [Creating and troubleshooting microscopy analysis workflows: Common challenges and common solutions](https://onlinelibrary.wiley.com/doi/full/10.1111/jmi.13288) - Beth Cimini
 
@@ -139,7 +140,8 @@ Image denoising enhances visual quality by removing noise, making structures mor
 **Software tools**
 
 - [skimage.restoration](https://scikit-image.org/docs/stable/api/skimage.restoration.html)
-- [Noise2Void](https://github.com/juglab/n2v)
+- [CAREamics](https://github.com/CAREamics/careamics)
+<!-- - [Noise2Void](https://github.com/juglab/n2v) -->
 <!-- - [Aydin](https://github.com/royerlab/aydin) -->
 
 ## 🔍 Object detection
@@ -345,3 +347,7 @@ QuPath is an open software for bioimage analysis, often used to process and visu
 **🍭 Orientation**
 
 - [OrientationPy](https://epfl-center-for-imaging.gitlab.io/orientationpy/introduction.html)
+
+**📏 Measurements**
+
+- [pixelflow](https://github.com/alan-turing-institute/pixelflow)
