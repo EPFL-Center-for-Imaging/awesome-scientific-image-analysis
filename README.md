@@ -139,10 +139,11 @@ Image denoising enhances visual quality by removing noise, making structures mor
 
 **Software tools**
 
-- [skimage.restoration](https://scikit-image.org/docs/stable/api/skimage.restoration.html)
-- [CAREamics](https://github.com/CAREamics/careamics)
-<!-- - [Noise2Void](https://github.com/juglab/n2v) -->
-<!-- - [Aydin](https://github.com/royerlab/aydin) -->
+- [skimage.restoration](https://scikit-image.org/docs/stable/api/skimage.restoration.html) - Implements several denoising algorithms in Python (TV Chambolle, Non-local Means, etc.)
+- [CAREamics](https://github.com/CAREamics/careamics) - Deep-learning based, self-supervised denoising algorithms: Noise2Void, N2V2, etc. 
+- [noise2self](https://github.com/czbiohub-sf/noise2self) - A framework for blind denoising with self-supervision.
+- [CellPose3 - OneClick](https://cellpose.readthedocs.io/en/latest/restore.html) - Deep-learning based denoising models for fluorescence and microscopy images
+- [SwinIR](https://github.com/JingyunLiang/SwinIR/releases) - Deep image restoration using Swin Transformer - for grayscale and color images
 
 ## 🔍 Object detection
 
