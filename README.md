@@ -352,3 +352,9 @@ QuPath is an open software for bioimage analysis, often used to process and visu
 **📏 Measurements**
 
 - [pixelflow](https://github.com/alan-turing-institute/pixelflow)
+
+**🏗️ Infrastructure**
+
+- [BIOP-desktop](https://biop.github.io/biop-desktop-doc/) - Virtual desktop for bioimage analysis
+- [Fractal](https://fractal-analytics-platform.github.io/) - Framework to process bioimaging data at scale in the OME-Zarr format
+- [BAND](https://bandv1.denbi.uni-tuebingen.de/#/eosc-landingpage) - Bioimage ANalysis Desktop
