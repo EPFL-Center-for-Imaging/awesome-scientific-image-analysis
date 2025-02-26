@@ -198,6 +198,13 @@ A variety of software tools are available for visualizing scientific images and 
 - [NeuroMorph](https://github.com/NeuroMorph-EPFL/NeuroMorph)
 - [BigDataViewer](https://imagej.net/plugins/bdv/)
 - [stackview](https://github.com/haesleinhuepf/stackview/)
+<!-- - [supervision](https://github.com/roboflow/supervision) -->
+<!-- - [fastplotlib](https://github.com/fastplotlib/fastplotlib) -->
+<!-- - [K3D-jupyter](https://k3d-jupyter.org/index.html) -->
+<!-- - [itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) -->
+<!-- - [ipyvtklink](https://github.com/Kitware/ipyvtklink) -->
+<!-- - [ipyvolume](https://github.com/widgetti/ipyvolume) -->
+<!-- - [ipygany](https://github.com/jupyter-widgets-contrib/ipygany) -->
 <!-- - [3D Slicer](https://www.slicer.org/) -->
 <!-- - [microfilm](https://github.com/guiwitz/microfilm) -->
 <!-- - [microviewer](https://github.com/seung-lab/microviewer) -->
@@ -207,6 +214,7 @@ A variety of software tools are available for visualizing scientific images and 
 <!-- - [ITK-SNAP](http://www.itksnap.org/pmwiki/pmwiki.php) -->
 <!-- - [MITK](https://www.mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK)) -->
 <!-- - [3D Viewer](https://imagej.net/plugins/3d-viewer/) -->
+<!-- - [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file) -->
 
 ## 🔋 Performance
 
