@@ -62,8 +62,8 @@ Read our **setup guide**:
 
 **Video series**
 
-- [Introduction to bioimage analysis](https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U&index=3)
-- [First principles in computer vision](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw)
+- [Introduction to bioimage analysis](https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U&index=3) - Robert Haase
+- [First principles in computer vision](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw) - Columbia University
 - [DigitalSreeni](https://www.youtube.com/c/DigitalSreeni)
 - [Microscopy Series](https://www.ibiology.org/online-biology-courses/microscopy-series/)
 - [Microcourses](https://www.youtube.com/@Microcourses/videos)
@@ -88,17 +88,17 @@ Image segmentation aims to create a segmentation mask that identifies specific c
 
 **Software tools**
 
-- [skimage.segmentation](https://scikit-image.org/docs/stable/api/skimage.segmentation.html)
-- [Ilastik - Pixel Classification](https://www.ilastik.org/documentation/pixelclassification/pixelclassification)
-- [Segment Anything Model 2 (SAM 2)](https://github.com/facebookresearch/sam2)
-- [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
-- [rembg](https://github.com/danielgatis/rembg)
-- [nnUNet](https://github.com/MIC-DKFZ/nnUNet)
-- [segmentation_models](https://github.com/qubvel/segmentation_models)
-- [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch)
-- [Monai](https://github.com/Project-MONAI/MONAI)
-- [StarDist](https://github.com/stardist/stardist)
-- [CellPose](https://github.com/mouseland/cellpose)
+- [skimage.segmentation](https://scikit-image.org/docs/stable/api/skimage.segmentation.html) - Classical segmentation algorithms in Python
+- [Ilastik - Pixel Classification](https://www.ilastik.org/documentation/pixelclassification/pixelclassification) - Semi-supervised workflow for pixel classification
+- [Segment Anything Model 2 (SAM 2)](https://github.com/facebookresearch/sam2) - Promptable, foundation model for image segmentation
+- [YOLO11 - Instance Segmentation](https://docs.ultralytics.com/tasks/segment/) - Image segmentation using Ultralytics YOLO
+- [rembg](https://github.com/danielgatis/rembg) - Remove image backgrounds
+- [nnUNet](https://github.com/MIC-DKFZ/nnUNet) - U-Net based biomedical image segmentation (2D and 3D)
+- [segmentation_models](https://github.com/qubvel/segmentation_models) - Segmentation models with pretrained backbones in Keras (Tensorflow)
+- [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) - Segmentation models with pretrained backbones in Pytorch
+- [Monai](https://github.com/Project-MONAI/MONAI) - Pytorch-based deep learning framework for biomedical imaging
+- [StarDist](https://github.com/stardist/stardist) - Segmentation of cell nuclei and other round (star-convex) objects
+- [CellPose](https://github.com/mouseland/cellpose) - Segmentation of cells and membranes in microscopy images
 <!-- - [Detectron2](https://github.com/facebookresearch/detectron2) -->
 <!-- - [pytorch-3dunet](https://github.com/wolny/pytorch-3dunet) -->
 <!-- - [InstanSeg](https://github.com/instanseg/instanseg/tree/main) -->
@@ -115,12 +115,12 @@ Image registration is used to align multiple images, stabilize sequences by comp
 
 **Software tools**
 
-- [skimage.registration](https://scikit-image.org/docs/stable/api/skimage.registration.html)
-- [SPAM](https://www.spam-project.dev/)
-- [pystackreg](https://github.com/glichtner/pystackreg)
-- [TurboReg](https://bigwww.epfl.ch/thevenaz/turboreg/)
-- [Warpy](https://imagej.net/plugins/bdv/warpy/warpy)
-- [ABBA](https://github.com/BIOP/ijp-imagetoatlas)
+- [skimage.registration](https://scikit-image.org/docs/stable/api/skimage.registration.html) - Cross-correlation and optical flow algorithms in Python
+- [SPAM](https://www.spam-project.dev/) - Image correlation in 2D and 3D
+- [pystackreg](https://github.com/glichtner/pystackreg) - Image stack (or movie) alignment in Python
+- [TurboReg](https://bigwww.epfl.ch/thevenaz/turboreg/) - Image stack (or movie) alignment in Fiji
+- [Warpy](https://imagej.net/plugins/bdv/warpy/warpy) - Register whole slide images in Fiji
+- [ABBA](https://github.com/BIOP/ijp-imagetoatlas) - Aligning Big Brains and Atlases
 <!-- - [pyGPUreg](https://github.com/bionanopatterning/pyGPUreg) -->
 <!-- - [Fast4DReg](https://imagej.net/plugins/fast4dreg) -->
 <!-- - [SimpleElastix](https://simpleelastix.readthedocs.io/index.html) -->
@@ -139,9 +139,9 @@ Image denoising enhances visual quality by removing noise, making structures mor
 
 **Software tools**
 
-- [skimage.restoration](https://scikit-image.org/docs/stable/api/skimage.restoration.html) - Implements several denoising algorithms in Python (TV Chambolle, Non-local Means, etc.)
-- [CAREamics](https://github.com/CAREamics/careamics) - Deep-learning based, self-supervised denoising algorithms: Noise2Void, N2V2, etc. 
-- [noise2self](https://github.com/czbiohub-sf/noise2self) - A framework for blind denoising with self-supervision.
+- [skimage.restoration](https://scikit-image.org/docs/stable/api/skimage.restoration.html) - Classical denoising algorithms in Python (TV Chambolle, Non-local Means, etc.)
+- [CAREamics](https://github.com/CAREamics/careamics) - Deep-learning based, self-supervised algorithms: Noise2Void, N2V2, etc. 
+- [noise2self](https://github.com/czbiohub-sf/noise2self) - Blind denoising with self-supervision.
 - [CellPose3 - OneClick](https://cellpose.readthedocs.io/en/latest/restore.html) - Deep-learning based denoising models for fluorescence and microscopy images
 - [SwinIR](https://github.com/JingyunLiang/SwinIR/releases) - Deep image restoration using Swin Transformer - for grayscale and color images
 
@@ -151,10 +151,10 @@ Object detection is the process of identifying and localizing objects within an 
 
 **Software tools**
 
-- [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
-- [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut)
-- [OpenPifPaf](https://github.com/openpifpaf/openpifpaf)
-- [Spotiflow](https://github.com/weigertlab/spotiflow)
+- [YOLO11 - Object Detection](https://github.com/ultralytics/ultralytics) - Object detection using Ultralytics YOLO
+- [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut) - Animal pose estimation
+- [OpenPifPaf](https://github.com/openpifpaf/openpifpaf) - Human pose estimation
+- [Spotiflow](https://github.com/weigertlab/spotiflow) - Spot detection for microscopy data
 <!-- - [Detectron2](https://github.com/facebookresearch/detectron2) -->
 
 ## 🐾 Tracking
@@ -170,12 +170,12 @@ Object tracking is the process of following objects across time in a video or im
 
 **Software tools**
 
-- [TrackMate](https://imagej.net/plugins/trackmate/)
-- [Trackpy](https://github.com/soft-matter/trackpy)
-- [Trackastra](https://github.com/weigertlab/trackastra)
-- [ultrack](https://github.com/royerlab/ultrack)
-- [co-tracker](https://github.com/facebookresearch/co-tracker)
-- [LapTrack](https://github.com/yfukai/laptrack)
+- [TrackMate](https://imagej.net/plugins/trackmate/) - Fiji plugin
+- [Trackpy](https://github.com/soft-matter/trackpy) - Particle tracking in Python
+- [Trackastra](https://github.com/weigertlab/trackastra) - Tracking with Transformers
+- [ultrack](https://github.com/royerlab/ultrack) - Large-scale cell tracking
+- [co-tracker](https://github.com/facebookresearch/co-tracker) - Tracking any point on a video
+- [LapTrack](https://github.com/yfukai/laptrack) - Particle tracking in Python
 
 ## 🌻 Visualization
 
@@ -197,6 +197,7 @@ A variety of software tools are available for visualizing scientific images and 
 - [tif2blender](https://github.com/oanegros/tif2blender)
 - [NeuroMorph](https://github.com/NeuroMorph-EPFL/NeuroMorph)
 - [BigDataViewer](https://imagej.net/plugins/bdv/)
+- [stackview](https://github.com/haesleinhuepf/stackview/)
 <!-- - [3D Slicer](https://www.slicer.org/) -->
 <!-- - [microfilm](https://github.com/guiwitz/microfilm) -->
 <!-- - [microviewer](https://github.com/seung-lab/microviewer) -->
@@ -218,10 +219,10 @@ Performance optimization is the process of making code execution faster, more ef
 
 **Software tools**
 
-- [pyclesperanto_prototype](https://github.com/clEsperanto/pyclesperanto_prototype)
-- [Numba](https://numba.pydata.org/)
-- [cuCIM](https://github.com/rapidsai/cucim)
-- [OpenCV](https://opencv.org/)
+- [pyclesperanto_prototype](https://github.com/clEsperanto/pyclesperanto_prototype) - GPU-accelerated bioimage analysis
+- [Numba](https://numba.pydata.org/) - JIT compiler for Python and Numpy code
+- [cuCIM](https://github.com/rapidsai/cucim) - GPU-accelerated image processing
+- [OpenCV](https://opencv.org/) - Optimized image processing algorithms
 
 ## 🕊️ Open science
 
@@ -288,7 +289,6 @@ Fiji is an open-source software for image processing and analysis. A wide range 
 
 - [ThunderSTORM](https://github.com/zitmen/thunderstorm)
 - [MorphoLibJ](https://imagej.net/plugins/morpholibj)
-- [OrientationJ](https://bigwww.epfl.ch/demo/orientationj/)
 
 ## 🏝️ Napari
 
@@ -319,6 +319,14 @@ QuPath is an open software for bioimage analysis, often used to process and visu
 - [qupath-extension-stardist](https://github.com/qupath/qupath-extension-stardist)
 - [qupath-extension-sam](https://github.com/ksugar/qupath-extension-sam)
 
+## 🏗️ Infrastructure
+
+Infrastructure tools for image analysis.
+
+- [BIOP-desktop](https://biop.github.io/biop-desktop-doc/) - Virtual desktop for bioimage analysis
+- [Fractal](https://fractal-analytics-platform.github.io/) - Framework to process bioimaging data at scale in the OME-Zarr format
+- [BAND](https://bandv1.denbi.uni-tuebingen.de/#/eosc-landingpage) - Bioimage ANalysis Desktop
+
 ## 🛸 Other
 
 **🤖 LLMs**
@@ -334,27 +342,32 @@ QuPath is an open software for bioimage analysis, often used to process and visu
 
 **🩻 Image reconstruction**
 
-- [Pyxu](https://pyxu-org.github.io/)
+- [Pyxu](https://pyxu-org.github.io/) - Modular and Scalable Computational Imaging
 <!-- - [Welcome to Inverse Problems and Imaging](https://tristanvanleeuwen.github.io/IP_and_Im_Lectures/intro.html) -->
-
-**👓 Depth estimation**
-
-- [Depth Anything](https://github.com/LiheYoung/Depth-Anything)
 
 **💲 Splines**
 
-- [SplineBox](https://splinebox.readthedocs.io/en/latest/index.html)
+- [SplineBox](https://splinebox.readthedocs.io/en/latest/index.html) - Efficient splines fitting in Python
 
 **🍭 Orientation**
 
-- [OrientationPy](https://epfl-center-for-imaging.gitlab.io/orientationpy/introduction.html)
+- [OrientationJ](https://bigwww.epfl.ch/demo/orientationj/) - Fiji plugin
+- [OrientationPy](https://epfl-center-for-imaging.gitlab.io/orientationpy/introduction.html) - 2D and 3D orientation measurements in Python
 
-**📏 Measurements**
+**🛠️ Utilities**
 
-- [pixelflow](https://github.com/alan-turing-institute/pixelflow)
+- [tifffile](https://pypi.org/project/tifffile/) - Read and write TIFF images
+- [aicsimageio](https://github.com/AllenCellModeling/aicsimageio) - Image reading and metadata conversion
+- [patchify](https://pypi.org/project/patchify/) - Image patching (tiling)
+- [pims](https://soft-matter.github.io/pims/) - Python Image Sequence
+- [imutils](https://github.com/PyImageSearch/imutils) - Image utilities
+<!-- - [imantics](https://imantics.readthedocs.io/en/latest/) - Image annotation semantics (Masks, Bounding Box, Polygons...) -->
+<!-- - [ncolor](https://github.com/kevinjohncutler/ncolor) - Remapping of instance labels -->
 
-**🏗️ Infrastructure**
+<!-- **👓 Depth estimation**
 
-- [BIOP-desktop](https://biop.github.io/biop-desktop-doc/) - Virtual desktop for bioimage analysis
-- [Fractal](https://fractal-analytics-platform.github.io/) - Framework to process bioimaging data at scale in the OME-Zarr format
-- [BAND](https://bandv1.denbi.uni-tuebingen.de/#/eosc-landingpage) - Bioimage ANalysis Desktop
+- [Depth Anything](https://github.com/LiheYoung/Depth-Anything) -->
+
+<!-- **📏 Measurements**
+
+- [pixelflow](https://github.com/alan-turing-institute/pixelflow) -->
