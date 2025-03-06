@@ -127,6 +127,7 @@ Image registration is used to align multiple images, stabilize sequences by comp
 <!-- - [DIPY](https://github.com/dipy/dipy) -->
 <!-- - [ANTsPy](https://github.com/ANTsX/ANTsPy) -->
 <!-- - [VoxelMorph](https://github.com/voxelmorph/voxelmorph) -->
+<!-- https://github.com/NHPatterson/wsireg -->
 
 ## 🪄 Image denoising
 
@@ -308,10 +309,18 @@ Napari is a fast and interactive multi-dimensional image viewer for Python. It c
 
 **Plugins**
 
+Here's our selection of useful plugins to extend Napari's basic functionality. We've excluded plugins linked to specific workflows or projects (napari-stardist, etc.) and reader plugins. To browse all plugins, see [napari hub](https://www.napari-hub.org/).
+
 - [napari-animation](https://github.com/napari/napari-animation)
 - [napari-skimage-regionprops](https://github.com/haesleinhuepf/napari-skimage-regionprops)
-- [Omega](https://github.com/royerlab/napari-chatgpt)
 - [napari-threedee](https://github.com/napari-threedee/napari-threedee)
+- [Omega](https://github.com/royerlab/napari-chatgpt)
+- [napari-sam](https://github.com/MIC-DKFZ/napari-sam)
+- [napari-imagej](https://github.com/imagej/napari-imagej)
+- [devbio-napari](https://github.com/haesleinhuepf/devbio-napari)
+- [napari-clusters-plotter](https://github.com/BiAPoL/napari-clusters-plotter)
+- [napari-accelerated-pixel-and-object-classification](https://github.com/haesleinhuepf/napari-accelerated-pixel-and-object-classification)
+- [napari-convpaint](https://github.com/guiwitz/napari-convpaint)
 
 ## 🧬 QuPath
 
@@ -329,11 +338,15 @@ QuPath is an open software for bioimage analysis, often used to process and visu
 
 ## 🏗️ Infrastructure
 
-Infrastructure tools for image analysis.
+Infrastructure tools for image analysis workflows (and related).
 
 - [BIOP-desktop](https://biop.github.io/biop-desktop-doc/) - Virtual desktop for bioimage analysis
-- [Fractal](https://fractal-analytics-platform.github.io/) - Framework to process bioimaging data at scale in the OME-Zarr format
 - [BAND](https://bandv1.denbi.uni-tuebingen.de/#/eosc-landingpage) - Bioimage ANalysis Desktop
+- [Fractal](https://fractal-analytics-platform.github.io/) - Framework to process bioimaging data at scale in the OME-Zarr format
+- [Galaxy (EU)](https://live.usegalaxy.eu/) - Web-based platform for accessible computational research
+- [Renkulab](https://renkulab.io/) - Data, Code, and Compute all under one roof
+- [Hugging Face Spaces](https://huggingface.co/spaces) - Build, host, and share ML apps
+- [BioImage.IO dev](https://dev.bioimage.io/) - Models, Datasets, and Applications for bioimage analysis
 
 ## 🛸 Other
 
