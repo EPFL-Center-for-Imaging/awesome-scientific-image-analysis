@@ -4,6 +4,26 @@
 
 A curated list of scientific image analysis resources and software tools.
 
+## 📌 Contents
+
+  - [🔖 Getting started](#-getting-started)
+  - [🧑‍🤝‍🧑 Communities](#-communities)
+  - [📚 Learning resources](#-learning-resources)
+  - [✂️ Image segmentation](#️-image-segmentation)
+  - [📐 Image registration](#-image-registration)
+  - [🪄 Image denoising](#-image-denoising)
+  - [🔍 Object detection](#-object-detection)
+  - [🐾 Tracking](#-tracking)
+  - [🌻 Visualization](#-visualization)
+  - [🔋 Performance](#-performance)
+  - [🕊️ Open science](#️-open-science)
+  - [🐍 Python](#-python)
+  - [🔬 Fiji (ImageJ)](#-fiji-imagej)
+  - [🏝️ Napari](#️-napari)
+  - [🧬 QuPath](#-qupath)
+  - [🏗️ Infrastructure](#️-infrastructure)
+  - [🛸 Other](#-other)
+
 ## 🔖 Getting started
 
 These are our favourite **resources** for learning the basics of image analysis:
