@@ -6,23 +6,23 @@ A curated list of scientific image analysis resources and software tools.
 
 ## 📌 Contents
 
-  - [🔖 Getting started](#-getting-started)
-  - [🧑‍🤝‍🧑 Communities](#-communities)
-  - [📚 Learning resources](#-learning-resources)
-  - [✂️ Image segmentation](#️-image-segmentation)
-  - [📐 Image registration](#-image-registration)
-  - [🪄 Image denoising](#-image-denoising)
-  - [🔍 Object detection](#-object-detection)
-  - [🐾 Tracking](#-tracking)
-  - [🌻 Visualization](#-visualization)
-  - [🔋 Performance](#-performance)
-  - [🕊️ Open science](#️-open-science)
-  - [🐍 Python](#-python)
-  - [🔬 Fiji (ImageJ)](#-fiji-imagej)
-  - [🏝️ Napari](#️-napari)
-  - [🧬 QuPath](#-qupath)
-  - [🏗️ Infrastructure](#️-infrastructure)
-  - [🛸 Other](#-other)
+- [🔖 Getting started](#-getting-started)
+- [🧑‍🤝‍🧑 Communities](#-communities)
+- [📚 Learning resources](#-learning-resources)
+- [✂️ Image segmentation](#️-image-segmentation)
+- [📐 Image registration](#-image-registration)
+- [🪄 Image denoising](#-image-denoising)
+- [🔍 Object detection](#-object-detection)
+- [🐾 Tracking](#-tracking)
+- [🌻 Visualization](#-visualization)
+- [🔋 Performance](#-performance)
+- [🕊️ Open science](#️-open-science)
+- [🐍 Python](#-python)
+- [🔬 Fiji (ImageJ)](#-fiji-imagej)
+- [🏝️ Napari](#️-napari)
+- [🧬 QuPath](#-qupath)
+- [🏗️ Infrastructure](#️-infrastructure)
+- [🛸 Other](#-other)
 
 ## 🔖 Getting started
 
@@ -62,11 +62,11 @@ Read our **setup guide**:
 - [Awesome Medical Imaging](https://github.com/fepegar/awesome-medical-imaging)
 <!-- - [ImageScience.org](https://imagescience.org/) -->
 
-**Guides**
+<!-- **Guides** -->
 
-- [Introduction to Bioimage Analysis](https://bioimagebook.github.io/README.html) - Pete Bankheads.
-- [Image data science with Python and Napari](https://biapol.github.io/Image-data-science-with-Python-and-Napari-EPFL2022/intro.html) - EPFL & TU Dresden.
-- [The Image Analysis Field Guide](https://imaging.epfl.ch/field-guide/) - EPFL Center for Imaging.
+<!-- - [Introduction to Bioimage Analysis](https://bioimagebook.github.io/README.html) - Pete Bankheads. -->
+<!-- - [Image data science with Python and Napari](https://biapol.github.io/Image-data-science-with-Python-and-Napari-EPFL2022/intro.html) - EPFL & TU Dresden. -->
+<!-- - [The Image Analysis Field Guide](https://imaging.epfl.ch/field-guide/) - EPFL Center for Imaging. -->
 <!-- - [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) - Robert Haase -->
 
 **Courses**
@@ -76,9 +76,9 @@ Read our **setup guide**:
 
 **Papers**
 
-- [A Hitchhiker's guide through the bio-image analysis software universe](https://febs.onlinelibrary.wiley.com/doi/full/10.1002/1873-3468.14451) - Robert Haase et al.
-- [Towards effective adoption of novel image analysis methods](https://www.nature.com/articles/s41592-023-01910-2) - Talley Lambert, Jennifer Waters.
-- [Creating and troubleshooting microscopy analysis workflows: Common challenges and common solutions](https://onlinelibrary.wiley.com/doi/full/10.1111/jmi.13288) - Beth Cimini.
+- [2024 - Creating and troubleshooting microscopy analysis workflows: Common challenges and common solutions](https://onlinelibrary.wiley.com/doi/full/10.1111/jmi.13288) - Beth Cimini.
+- [2023 - Towards effective adoption of novel image analysis methods](https://www.nature.com/articles/s41592-023-01910-2) - Talley Lambert, Jennifer Waters.
+- [2022 - A Hitchhiker's guide through the bio-image analysis software universe](https://febs.onlinelibrary.wiley.com/doi/full/10.1002/1873-3468.14451) - Robert Haase et al.
 
 **Video series**
 
@@ -130,8 +130,8 @@ Image registration is used to align multiple images, stabilize sequences by comp
 
 **Learning resources**
 
-- [Image correlation - Practice](https://www.spam-project.dev/docs/)
-- [Image correlation - Theory](https://www.spam-project.dev/docs/)
+- [Image correlation - Practice](https://www.spam-project.dev/docs/tutorials/tutorial-02b-DIC-practice.html)
+- [Image correlation - Theory](https://www.spam-project.dev/docs/tutorials/tutorial-02a-DIC-theory.html)
 
 **Software tools**
 
@@ -208,9 +208,7 @@ A variety of software tools are available for visualizing scientific images and 
 
 **Software tools**
 
-- [Fiji](https://fiji.sc/)
 - [Napari](https://napari.org/stable/)
-- [QuPath](https://qupath.github.io/)
 - [Paraview](https://www.paraview.org/)
 - [Neuroglancer](https://github.com/google/neuroglancer)
 - [pyvista](https://pyvista.org/)
@@ -325,7 +323,7 @@ Napari is a fast and interactive multi-dimensional image viewer for Python. It c
 
 **Learning resources**
 
-- [napari.org](https://napari.org/stable/)
+- [Usage (napari.org)](https://napari.org/stable/usage.html)
 
 **Plugins**
 
@@ -348,7 +346,7 @@ QuPath is an open software for bioimage analysis, often used to process and visu
 
 **Learning resources**
 
-- [qupath.github.io](https://qupath.github.io)
+- [QuPath Documentation](https://qupath.readthedocs.io/en/stable/)
 
 **Extensions**
 
@@ -370,32 +368,32 @@ Infrastructure tools for image analysis workflows (and related).
 
 ## 🛸 Other
 
-**🤖 LLMs**
+### 🤖 LLMs
 
 - [bia-bob](https://github.com/haesleinhuepf/bia-bob)
 - [BioImage.IO Chatbot](https://github.com/bioimage-io/bioimageio-chatbot)
 
-**📷 Image acquisition**
+### 📷 Image acquisition
 
 - [Cameras and Lenses](https://ciechanow.ski/cameras-and-lenses/)
 - [Knowledge Center](https://www.edmundoptics.eu/knowledge-center) - Edmund Optics.
 <!-- - [Guides - Center for Microscopy and Image Analysis](https://zmb.dozuki.com/) - University of Zurich -->
 
-**🩻 Image reconstruction**
+### 🩻 Image reconstruction
 
 - [Pyxu](https://pyxu-org.github.io/) - Modular and Scalable Computational Imaging.
 <!-- - [Welcome to Inverse Problems and Imaging](https://tristanvanleeuwen.github.io/IP_and_Im_Lectures/intro.html) -->
 
-**💲 Splines**
+### 💲 Splines
 
 - [SplineBox](https://splinebox.readthedocs.io/en/latest/index.html) - Efficient splines fitting in Python.
 
-**🍭 Orientation**
+### 🍭 Orientation
 
 - [OrientationJ](https://bigwww.epfl.ch/demo/orientationj/) - Fiji plugin.
 - [OrientationPy](https://epfl-center-for-imaging.gitlab.io/orientationpy/introduction.html) - 2D and 3D orientation measurements in Python.
 
-**🛠️ Utilities**
+### 🛠️ Utilities
 
 - [tifffile](https://pypi.org/project/tifffile/) - Read and write TIFF images.
 - [aicsimageio](https://github.com/AllenCellModeling/aicsimageio) - Image reading and metadata conversion.
