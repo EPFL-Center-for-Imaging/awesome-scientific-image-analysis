@@ -6,23 +6,23 @@ A curated list of scientific image analysis resources and software tools.
 
 ## 📌 Contents
 
-- [🔖 Getting started](#-getting-started)
-- [🧑‍🤝‍🧑 Communities](#-communities)
-- [📚 Learning resources](#-learning-resources)
-- [✂️ Image segmentation](#️-image-segmentation)
-- [📐 Image registration](#-image-registration)
-- [🪄 Image denoising](#-image-denoising)
-- [🔍 Object detection](#-object-detection)
-- [🐾 Tracking](#-tracking)
-- [🌻 Visualization](#-visualization)
-- [🔋 Performance](#-performance)
-- [🕊️ Open science](#️-open-science)
-- [🐍 Python](#-python)
-- [🔬 Fiji (ImageJ)](#-fiji-imagej)
+- [🔖 Getting started](#getting-started)
+- [🧑‍🤝‍🧑 Communities](#communities)
+- [📚 Learning resources](#learning-resources)
+- [✂️ Image segmentation](#️image-segmentation)
+- [📐 Image registration](#image-registration)
+- [🪄 Image denoising](#image-denoising)
+- [🔍 Object detection](#object-detection)
+- [🐾 Tracking](#tracking)
+- [🌻 Visualization](#visualization)
+- [🔋 Performance](#performance)
+- [🕊️ Open science](#️open-science)
+- [🐍 Python](#python)
+- [🔬 Fiji (ImageJ)](#fiji-imagej)
 - [🏝️ Napari](#️-napari)
-- [🧬 QuPath](#-qupath)
-- [🏗️ Infrastructure](#️-infrastructure)
-- [🛸 Other](#-other)
+- [🧬 QuPath](#qupath)
+- [🏗️ Infrastructure](#️infrastructure)
+- [🛸 Other](#other)
 
 ## 🔖 Getting started
 
@@ -55,32 +55,19 @@ Read our **setup guide**:
 
 ## 📚 Learning resources
 
-**Curated lists**
+### Curated lists
 
 - [Awesome Biological Image Analysis](https://github.com/hallvaaw/awesome-biological-image-analysis)
 - [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision)
 - [Awesome Medical Imaging](https://github.com/fepegar/awesome-medical-imaging)
-<!-- - [ImageScience.org](https://imagescience.org/) -->
 
-<!-- **Guides** -->
-
-<!-- - [Introduction to Bioimage Analysis](https://bioimagebook.github.io/README.html) - Pete Bankheads. -->
-<!-- - [Image data science with Python and Napari](https://biapol.github.io/Image-data-science-with-Python-and-Napari-EPFL2022/intro.html) - EPFL & TU Dresden. -->
-<!-- - [The Image Analysis Field Guide](https://imaging.epfl.ch/field-guide/) - EPFL Center for Imaging. -->
-<!-- - [Bio-image Analysis Notebooks](https://haesleinhuepf.github.io/BioImageAnalysisNotebooks/intro.html) - Robert Haase -->
-
-**Courses**
-
-- [Image Processing and Analysis for Life Scientists](https://courseware.epfl.ch/courses/course-v1:EPFL+IPA4LS+2019_t3/about) - BIOP, EPFL.
-- [Introduction to Programming in the Biological Sciences Bootcamp](https://justinbois.github.io/bootcamp/2022_epfl/#) - Justin Bois.
-
-**Papers**
+### Papers
 
 - [2024 - Creating and troubleshooting microscopy analysis workflows: Common challenges and common solutions](https://onlinelibrary.wiley.com/doi/full/10.1111/jmi.13288) - Beth Cimini.
 - [2023 - Towards effective adoption of novel image analysis methods](https://www.nature.com/articles/s41592-023-01910-2) - Talley Lambert, Jennifer Waters.
 - [2022 - A Hitchhiker's guide through the bio-image analysis software universe](https://febs.onlinelibrary.wiley.com/doi/full/10.1002/1873-3468.14451) - Robert Haase et al.
 
-**Video series**
+### Video series
 
 - [Introduction to bioimage analysis](https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U&index=3) - Robert Haase.
 - [First principles in computer vision](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw) - Columbia University.
@@ -99,14 +86,14 @@ Read our **setup guide**:
 
 Image segmentation aims to create a segmentation mask that identifies specific classes or objects. Techniques for image segmentation include thresholding, weakly supervised learning (e.g., Ilastik, Weka), and deep learning.
 
-**Learning resources**
+### Learning resources
 
 - [Thresholding - Introduction to Bioimage Analysis](https://bioimagebook.github.io/chapters/2-processing/3-thresholding/thresholding.html)
 - [Thresholding - Scikit-image](https://scikit-image.org/docs/dev/auto_examples/segmentation/plot_thresholding.html)
 - [Segmentation - ImageJ Tutorials](https://imagej.net/imaging/segmentation)
 - [Image segmentation - Image data science with Python and Napari](https://biapol.github.io/Image-data-science-with-Python-and-Napari-EPFL2022/day2d_image_segmentation/readme.html)
 
-**Software tools**
+### Software tools
 
 - [skimage.segmentation](https://scikit-image.org/docs/stable/api/skimage.segmentation.html) - Classical segmentation algorithms in Python.
 - [Ilastik - Pixel Classification](https://www.ilastik.org/documentation/pixelclassification/pixelclassification) - Semi-supervised workflow for pixel classification.
@@ -128,12 +115,12 @@ Image segmentation aims to create a segmentation mask that identifies specific c
 
 Image registration is used to align multiple images, stabilize sequences by compensating for camera movement, track object movement and deformation, and stitch multiple fields of view together.
 
-**Learning resources**
+### Learning resources
 
 - [Image correlation - Practice](https://www.spam-project.dev/docs/tutorials/tutorial-02b-DIC-practice.html)
 - [Image correlation - Theory](https://www.spam-project.dev/docs/tutorials/tutorial-02a-DIC-theory.html)
 
-**Software tools**
+### Software tools
 
 - [skimage.registration](https://scikit-image.org/docs/stable/api/skimage.registration.html) - Cross-correlation and optical flow algorithms in Python.
 - [SPAM](https://www.spam-project.dev/) - Image correlation in 2D and 3D.
@@ -153,12 +140,12 @@ Image registration is used to align multiple images, stabilize sequences by comp
 
 Image denoising enhances visual quality by removing noise, making structures more distinguishable and facilitating segmentation through thresholding.
 
-**Learning resources**
+### Learning resources
 
 - [Noise - Introduction to Bioimage Analysis](https://bioimagebook.github.io/chapters/3-fluorescence/3-formation_noise/formation_noise.html)
 - [Denoising a picture (scikit-image)](https://scikit-image.org/docs/stable/auto_examples/filters/plot_denoise.html)
 
-**Software tools**
+### Software tools
 
 - [skimage.restoration](https://scikit-image.org/docs/stable/api/skimage.restoration.html) - Classical denoising algorithms in Python (TV Chambolle, Non-local Means, etc.).
 - [CAREamics](https://github.com/CAREamics/careamics) - Deep-learning based, self-supervised algorithms: Noise2Void, N2V2, etc. 
@@ -170,7 +157,7 @@ Image denoising enhances visual quality by removing noise, making structures mor
 
 Object detection is the process of identifying and localizing objects within an image or video using various shapes such as bounding boxes, keypoints, circles, or other geometric representations.
 
-**Software tools**
+### Software tools
 
 - [YOLO11 - Object Detection](https://github.com/ultralytics/ultralytics) - Object detection using Ultralytics YOLO.
 - [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut) - Animal pose estimation.
@@ -182,14 +169,14 @@ Object detection is the process of identifying and localizing objects within an 
 
 Object tracking is the process of following objects across time in a video or image time series.
 
-**Learning resources**
+### Learning resources
 
 - [Single cell tracking with napari](https://napari.org/stable/tutorials/tracking/cell_tracking.html)
 - [Walkthrough (trackpy)](https://soft-matter.github.io/trackpy/dev/tutorial/walkthrough.html)
 - [Getting started with TrackMate](https://imagej.net/plugins/trackmate/tutorials/getting-started)
 <!-- - [Trackmate Introduction and Demo](https://www.youtube.com/watch?v=7HWtaikIFcs) -->
 
-**Software tools**
+### Software tools
 
 - [TrackMate](https://imagej.net/plugins/trackmate/) - Fiji plugin.
 - [Trackpy](https://github.com/soft-matter/trackpy) - Particle tracking in Python.
@@ -202,11 +189,11 @@ Object tracking is the process of following objects across time in a video or im
 
 A variety of software tools are available for visualizing scientific images and their associated data.
 
-**Learning resources**
+### Learning resources
 
 - [Visual image comparison (Scikit-image)](https://scikit-image.org/docs/stable/auto_examples/applications/plot_image_comparison.html#sphx-glr-auto-examples-applications-plot-image-comparison-py)
 
-**Software tools**
+### Software tools
 
 - [Napari](https://napari.org/stable/)
 - [Paraview](https://www.paraview.org/)
@@ -239,12 +226,12 @@ A variety of software tools are available for visualizing scientific images and 
 
 Performance optimization is the process of making code execution faster, more efficient, or using fewer computing resources.
 
-**Learning resources**
+### Learning resources
 
 - [System aspects - Basics of Computing Environments for Scientists](https://compenv.phys.ethz.ch/system_aspects/)
 - [Accelerated large-scale image procesing in Python](https://github.com/EPFL-Center-for-Imaging/accel-large-image-proc-talk)
 
-**Software tools**
+### Software tools
 
 - [pyclesperanto_prototype](https://github.com/clEsperanto/pyclesperanto_prototype) - GPU-accelerated bioimage analysis.
 - [Numba](https://numba.pydata.org/) - JIT compiler for Python and Numpy code.
@@ -255,13 +242,13 @@ Performance optimization is the process of making code execution faster, more ef
 
 Open imaging science meets principles of findability, accessibility, interoperability, and reusability (FAIR).
 
-**Software development practices**
+### Software development practices
 
 - [The Turing Way handbook](https://the-turing-way.netlify.app/index.html)
 - [Code Publishing cheat sheet](https://www.epfl.ch/schools/enac/wp-content/uploads/2022/06/ENAC-IT4R_Code_Publishing_Cheat_Sheet.pdf)
 - [Good enough practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
 
-**Reproducibility**
+### Reproducibility
 
 - [Reproducible image handling and analysis](https://www.embopress.org/doi/full/10.15252/embj.2020105889)
 - [Understanding metric-related pitfalls in image analysis validation](https://arxiv.org/abs/2302.01790)
@@ -269,7 +256,7 @@ Open imaging science meets principles of findability, accessibility, interoperab
 - [When seeing is not believing: application-appropriate validation matters for quantitative bioimage analysis](https://www.nature.com/articles/s41592-023-01881-4)
 <!-- - [Processing images for papers & posters](https://osf.io/a8hb6) -->
 
-**Figures creation**
+### Figures creation
 
 - [Community-developed checklists for publishing images and image analysis](https://arxiv.org/abs/2302.07005)
 - [Creating Clear and Informative Image-based Figures for Scientific Publications](https://www.biorxiv.org/content/10.1101/2020.10.08.327718v2)
@@ -280,14 +267,14 @@ Open imaging science meets principles of findability, accessibility, interoperab
 
 Python is a popular programming language for scientific image analysis.
 
-**Python setup**
+### Python setup
 
-- [Setting up Python for scientific image analysis](https://imaging.epfl.ch/field-guide/sections/python/notebooks/python_setup.html)
 - [Managing Conda Environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 - [Conda Cheatsheet](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf)
 - [Python environments workshop](https://hackmd.io/@talley/SJB_lObBi) - Talley Lambert.
+<!-- - [Setting up Python for scientific image analysis](https://imaging.epfl.ch/field-guide/sections/python/notebooks/python_setup.html) -->
 
-**Python programming**
+### Python programming
 
 - [Python 3 documentation](https://docs.python.org/3/)
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
@@ -295,7 +282,7 @@ Python is a popular programming language for scientific image analysis.
 - [pydevtips: Python Development Tips](https://pydevtips.readthedocs.io/en/latest/index.html) - Eric Bezzam.
 - [Python packaging 101](https://www.pyopensci.org/python-package-guide/tutorials/intro.html)
 
-**Python for image processing**
+### Python for image processing
 
 - [Image processing with Python](https://github.com/guiwitz/Python_image_processing) - Guillaume Witz.
 - [User Guide](https://scikit-image.org/docs/stable/) - Scikit-image.
@@ -306,13 +293,13 @@ Python is a popular programming language for scientific image analysis.
 
 Fiji is an open-source software for image processing and analysis. A wide range of community-developed plugins can enhance its functionality.
 
-**Learning resources**
+### Learning resources
 
 - [Scientific Imaging Tutorials](https://imagej.net/imaging/index) - ImageJ.
 - [Image handling using Fiji - training materials](https://zenodo.org/records/14771563) - Joanna Pylvänäinen.
 <!-- - [Fiji Programming Tutorial](https://syn.mrc-lmb.cam.ac.uk/acardona/fiji-tutorial/) -->
 
-**Plugins**
+### Plugins
 
 - [ThunderSTORM](https://github.com/zitmen/thunderstorm)
 - [MorphoLibJ](https://imagej.net/plugins/morpholibj)
@@ -321,11 +308,11 @@ Fiji is an open-source software for image processing and analysis. A wide range 
 
 Napari is a fast and interactive multi-dimensional image viewer for Python. It can be used for browsing, annotating, and analyzing scientific images.
 
-**Learning resources**
+### Learning resources
 
 - [Usage (napari.org)](https://napari.org/stable/usage.html)
 
-**Plugins**
+### Plugins
 
 Here's our selection of useful plugins to extend Napari's basic functionality. We've excluded plugins linked to specific workflows or projects (napari-stardist, etc.) and reader plugins. To browse all plugins, see [napari hub](https://www.napari-hub.org/).
 
@@ -344,11 +331,11 @@ Here's our selection of useful plugins to extend Napari's basic functionality. W
 
 QuPath is an open software for bioimage analysis, often used to process and visualize digital pathology and whole slide images.
 
-**Learning resources**
+### Learning resources
 
 - [QuPath Documentation](https://qupath.readthedocs.io/en/stable/)
 
-**Extensions**
+### Extensions
 
 - [qupath-extension-cellpose](https://github.com/BIOP/qupath-extension-cellpose)
 - [qupath-extension-stardist](https://github.com/qupath/qupath-extension-stardist)
