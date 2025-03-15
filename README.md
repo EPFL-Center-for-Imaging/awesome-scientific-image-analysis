@@ -384,6 +384,7 @@ Infrastructure tools for image analysis workflows (and related).
 
 - [tifffile](https://pypi.org/project/tifffile/) - Read and write TIFF images.
 - [aicsimageio](https://github.com/AllenCellModeling/aicsimageio) - Image reading and metadata conversion.
+- [imageio](https://github.com/imageio/imageio) - Python library for reading and writing image data.
 - [patchify](https://pypi.org/project/patchify/) - Image patching (tiling).
 - [pims](https://soft-matter.github.io/pims/) - Python Image Sequence.
 - [imutils](https://github.com/PyImageSearch/imutils) - Image utilities.
