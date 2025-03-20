@@ -199,18 +199,18 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 
 - [Fiji - Volume Viewer](https://imagej.net/plugins/volume-viewer) - Ideal for Fiji users
 - [Fiji - 3D Viewer](https://imagej.net/plugins/3d-viewer/) - Ideal for Fiji users
-- [Fiji - 3Dscript](https://imagej.net/plugins/3dscript) - 3D rendering animation in Fiji
-- [Napari](https://napari.org/stable/)
-- [PyVista](https://pyvista.org/)
-- [vedo](https://github.com/marcomusy/vedo)
-- [itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets)
-- [stackview](https://github.com/haesleinhuepf/stackview/)
-- [Paraview](https://www.paraview.org/)
-- [tif2blender](https://github.com/oanegros/tif2blender)
-- [Fiji - BigDataViewer](https://imagej.net/plugins/bdv/)
-- [Neuroglancer](https://github.com/google/neuroglancer)
-- [vizarr](https://github.com/hms-dbmi/vizarr)
-- [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file)
+- [Fiji - 3Dscript](https://imagej.net/plugins/3dscript) - 3D rendering animations in Fiji
+- [Napari](https://napari.org/stable/) - Interactive nD image viewer in Python
+- [PyVista](https://pyvista.org/) - 3D visualizations in Python through VTK
+- [vedo](https://github.com/marcomusy/vedo) - Scientific visualizations of 3D objects
+- [itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) - VTK viewer in Jupyter notebooks
+- [stackview](https://github.com/haesleinhuepf/stackview/) - 3D stack visualization in Jupyter notebooks
+- [Paraview](https://www.paraview.org/) - Scientific visualizations through VTK
+- [tif2blender](https://github.com/oanegros/tif2blender) - Microscopy image visualization in Blender
+- [Fiji - BigDataViewer](https://imagej.net/plugins/bdv/) - Ideal for big data
+- [Neuroglancer](https://github.com/google/neuroglancer) - Browser-based visualizations compatible with large images (zarr)
+- [vizarr](https://github.com/hms-dbmi/vizarr) - Simple Zarr viewer
+- [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file) - Multiscale visualization on the web
 <!-- - [K3D-jupyter](https://k3d-jupyter.org/index.html) -->
 <!-- - [fastplotlib](https://github.com/fastplotlib/fastplotlib) -->
 <!-- - [microfilm](https://github.com/guiwitz/microfilm) -->
