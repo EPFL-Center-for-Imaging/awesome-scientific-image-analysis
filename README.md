@@ -189,38 +189,37 @@ Object tracking is the process of following objects across time in a video or im
 
 A variety of software tools are available for visualizing scientific images and their associated data.
 
+For a detailed comparison of 3D viewers, see *[3D Image Visualization software tools](./extra/visualization.md)*.
+
 ### Learning resources
 
 - [Visual image comparison (Scikit-image)](https://scikit-image.org/docs/stable/auto_examples/applications/plot_image_comparison.html#sphx-glr-auto-examples-applications-plot-image-comparison-py)
 
 ### Software tools
 
+- [Fiji - Volume Viewer](https://imagej.net/plugins/volume-viewer) - Ideal for Fiji users
+- [Fiji - 3D Viewer](https://imagej.net/plugins/3d-viewer/) - Ideal for Fiji users
+- [Fiji - 3Dscript](https://imagej.net/plugins/3dscript) - 3D rendering animation in Fiji
 - [Napari](https://napari.org/stable/)
-- [Paraview](https://www.paraview.org/)
-- [Neuroglancer](https://github.com/google/neuroglancer)
-- [pyvista](https://pyvista.org/)
+- [PyVista](https://pyvista.org/)
 - [vedo](https://github.com/marcomusy/vedo)
-- [tif2blender](https://github.com/oanegros/tif2blender)
-- [NeuroMorph](https://github.com/NeuroMorph-EPFL/NeuroMorph)
-- [BigDataViewer](https://imagej.net/plugins/bdv/)
+- [itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets)
 - [stackview](https://github.com/haesleinhuepf/stackview/)
-<!-- - [supervision](https://github.com/roboflow/supervision) -->
-<!-- - [fastplotlib](https://github.com/fastplotlib/fastplotlib) -->
+- [Paraview](https://www.paraview.org/)
+- [tif2blender](https://github.com/oanegros/tif2blender)
+- [Fiji - BigDataViewer](https://imagej.net/plugins/bdv/)
+- [Neuroglancer](https://github.com/google/neuroglancer)
+- [vizarr](https://github.com/hms-dbmi/vizarr)
+- [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file)
 <!-- - [K3D-jupyter](https://k3d-jupyter.org/index.html) -->
-<!-- - [itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) -->
-<!-- - [ipyvtklink](https://github.com/Kitware/ipyvtklink) -->
-<!-- - [ipyvolume](https://github.com/widgetti/ipyvolume) -->
-<!-- - [ipygany](https://github.com/jupyter-widgets-contrib/ipygany) -->
-<!-- - [3D Slicer](https://www.slicer.org/) -->
+<!-- - [fastplotlib](https://github.com/fastplotlib/fastplotlib) -->
 <!-- - [microfilm](https://github.com/guiwitz/microfilm) -->
 <!-- - [microviewer](https://github.com/seung-lab/microviewer) -->
-<!-- - [vizarr](https://github.com/hms-dbmi/vizarr) -->
-<!-- - [ndv](https://github.com/pyapp-kit/ndv) -->
 <!-- - [hyperspy](https://github.com/hyperspy/hyperspy) -->
-<!-- - [ITK-SNAP](http://www.itksnap.org/pmwiki/pmwiki.php) -->
-<!-- - [MITK](https://www.mitk.org/wiki/The_Medical_Imaging_Interaction_Toolkit_(MITK)) -->
-<!-- - [3D Viewer](https://imagej.net/plugins/3d-viewer/) -->
-<!-- - [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file) -->
+<!-- - [ndv](https://github.com/pyapp-kit/ndv) -->
+<!-- - [supervision](https://github.com/roboflow/supervision) -->
+<!-- - [NeuroMorph](https://github.com/NeuroMorph-EPFL/NeuroMorph) -->
+<!-- - [3D Slicer](https://www.slicer.org/) -->
 
 ## 🔋 Performance
 
