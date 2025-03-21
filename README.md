@@ -393,4 +393,4 @@ Infrastructure tools for image analysis workflows (and related).
 - [imutils](https://github.com/PyImageSearch/imutils) - Image utilities.
 <!-- - [imantics](https://imantics.readthedocs.io/en/latest/) - Image annotation semantics (Masks, Bounding Box, Polygons...) -->
 <!-- - [ncolor](https://github.com/kevinjohncutler/ncolor) - Remapping of instance labels -->
-<!-- - [pixelflow](https://github.com/alan-turing-institute/pixelflow) --> -->
+<!-- - [pixelflow](https://github.com/alan-turing-institute/pixelflow) -->
