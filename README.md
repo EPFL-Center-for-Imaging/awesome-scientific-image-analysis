@@ -32,6 +32,7 @@ Online courses to learn scientific image analysis:
 - [Introduction to Bioimage Analysis](https://bioimagebook.github.io/README.html) - Pete Bankheads.
 - [Image Processing with Python](https://datacarpentry.github.io/image-processing/) - Data Carpentry
 - [Image data science with Python and Napari](https://biapol.github.io/Image-data-science-with-Python-and-Napari-EPFL2022/intro.html) - EPFL & TU Dresden.
+- [bioimagingguide.org](https://www.bioimagingguide.org/welcome.html) - Center for Open Bioimage Analysis.
 
 Courses in video format:
 
@@ -190,6 +191,7 @@ Object tracking is the process of following objects across time in a video or im
 - [co-tracker](https://github.com/facebookresearch/co-tracker) - Tracking any point on a video.
 - [LapTrack](https://github.com/yfukai/laptrack) - Particle tracking in Python.
 - [Mastodon](https://imagej.net/plugins/mastodon) - Large-scale tracking in Fiji.
+<!-- - [DeepTrack2](https://github.com/DeepTrackAI/DeepTrack2) - Deep learning framework for digital microscopy. -->
 
 ## 🌻 Visualization
 
@@ -383,6 +385,10 @@ Infrastructure tools for image analysis workflows (and related).
 - [OrientationJ](https://bigwww.epfl.ch/demo/orientationj/) - Fiji plugin.
 - [OrientationPy](https://epfl-center-for-imaging.gitlab.io/orientationpy/introduction.html) - 2D and 3D orientation measurements in Python.
 
+## 🕸️ Meshes
+
+- [scikit-shapes](https://github.com/scikit-shapes/scikit-shapes) - Shape processing in Python.
+
 ### 🛠️ Utilities
 
 - [tifffile](https://pypi.org/project/tifffile/) - Read and write TIFF images.
@@ -391,6 +397,7 @@ Infrastructure tools for image analysis workflows (and related).
 - [patchify](https://pypi.org/project/patchify/) - Image patching (tiling).
 - [pims](https://soft-matter.github.io/pims/) - Python Image Sequence.
 - [imutils](https://github.com/PyImageSearch/imutils) - Image utilities.
+- [bioio](https://github.com/bioio-devs/bioio) - Read, write, and manage microscopy images.
 <!-- - [imantics](https://imantics.readthedocs.io/en/latest/) - Image annotation semantics (Masks, Bounding Box, Polygons...) -->
 <!-- - [ncolor](https://github.com/kevinjohncutler/ncolor) - Remapping of instance labels -->
 <!-- - [pixelflow](https://github.com/alan-turing-institute/pixelflow) -->
