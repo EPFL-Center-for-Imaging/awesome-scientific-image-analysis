@@ -278,13 +278,14 @@ Python is a popular programming language for scientific image analysis.
 
 - [Managing Conda Environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 - [Python environments workshop](https://hackmd.io/@talley/SJB_lObBi) - Talley Lambert.
+- [Setting up Python for scientific image analysis](https://epfl-center-for-imaging.github.io/python-setup/) - EPFL Center for Imaging.
 <!-- - [Conda Cheatsheet](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf) -->
-<!-- - [Setting up Python for scientific image analysis](https://imaging.epfl.ch/field-guide/sections/python/notebooks/python_setup.html) -->
 
 ### Python programming
 
 - [Python 3 documentation](https://docs.python.org/3/)
 - [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html) - Software Carpentry.
+<!-- - [Intermediate Research Software Development](https://carpentries-incubator.github.io/python-intermediate-development/) - Carpentries Incubator. -->
 <!-- - [Python packaging 101](https://www.pyopensci.org/python-package-guide/tutorials/intro.html) -->
 <!-- - [pydevtips: Python Development Tips](https://pydevtips.readthedocs.io/en/latest/index.html) - Eric Bezzam. -->
 <!-- - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) -->
@@ -375,6 +376,10 @@ Infrastructure tools for image analysis workflows (and related).
 
 - [Pyxu](https://pyxu-org.github.io/) - Modular and Scalable Computational Imaging.
 <!-- - [Welcome to Inverse Problems and Imaging](https://tristanvanleeuwen.github.io/IP_and_Im_Lectures/intro.html) -->
+
+### 🖌️ Image annotation
+
+- [makesense.ai](https://www.makesense.ai/) - Simple annotation app for YOLO models.
 
 ### 💲 Splines
 
