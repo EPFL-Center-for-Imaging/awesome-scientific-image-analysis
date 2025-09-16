@@ -30,7 +30,7 @@ Online courses to learn scientific image analysis:
 
 - [Image Processing and Analysis for Life Scientists](https://courseware.epfl.ch/courses/course-v1:EPFL+IPA4LS+2019_t3/about) - BIOP, EPFL.
 - [Introduction to Bioimage Analysis](https://bioimagebook.github.io/README.html) - Pete Bankheads.
-- [Image Processing with Python](https://datacarpentry.github.io/image-processing/) - Data Carpentry
+- [Image Processing with Python](https://datacarpentry.github.io/image-processing/) - Data Carpentry.
 - [Image data science with Python and Napari](https://biapol.github.io/Image-data-science-with-Python-and-Napari-EPFL2022/intro.html) - EPFL & TU Dresden.
 - [bioimagingguide.org](https://www.bioimagingguide.org/welcome.html) - Center for Open Bioimage Analysis.
 
@@ -47,14 +47,15 @@ General image analysis software:
 - [Napari](https://napari.org/) - A fast and interactive multi-dimensional image viewer for Python.
 - [QuPath](https://qupath.github.io/) - Open Software for Bioimage Analysis.
 
-Python setup:
+Python:
 
-- [Setting up Python for scientific image analysis](https://imaging.epfl.ch/field-guide/sections/python/notebooks/python_setup.html)
+- [Setting up Python for scientific image analysis](https://imaging.epfl.ch/field-guide/sections/python/notebooks/python_setup.html) - Short guide by the EPFL Center for Imaging.
+- [Introduction to Python for Image Analysis](https://epfl-center-for-imaging.github.io/python-intro-images/lab/index.html?path=python-intro%2FContent.ipynb) - Jupyterlite Notebook (no installation required).
 
 ## 🧑‍🤝‍🧑 Communities
 
-- [Image.sc](https://image.sc/)
-- [GloBIAS](https://www.globias.org/)
+- [Image.sc](https://image.sc/) - Popular online forum focused on bioimage analysis.
+- [GloBIAS](https://www.globias.org/) - Global Bioimage Analysts' Society.
 <!-- - [SwissBIAS](https://swissbias.github.io/) -->
 <!-- - [Euro-BioImaging](https://www.eurobioimaging.eu/) -->
 <!-- - [QUAREP-LiMi](https://quarep.org/) -->
@@ -77,7 +78,7 @@ Python setup:
 
 ### Video series
 
-- [DigitalSreeni](https://www.youtube.com/c/DigitalSreeni) - Focused on Python and deep learning for image analysis
+- [DigitalSreeni](https://www.youtube.com/c/DigitalSreeni) - Focused on Python and deep learning for image analysis.
 <!-- - [Microcourses](https://www.youtube.com/@Microcourses/videos) -->
 <!-- - [Optical microscopy Image Processing & analysis](https://www.youtube.com/@johanna.m.dela-cruz/videos) -->
 <!-- - [Aits Lab](https://www.youtube.com/channel/UCmh81PBL4lU6r6mcGqhRPbQ/playlists) -->
@@ -191,6 +192,7 @@ Object tracking is the process of following objects across time in a video or im
 - [co-tracker](https://github.com/facebookresearch/co-tracker) - Tracking any point on a video.
 - [LapTrack](https://github.com/yfukai/laptrack) - Particle tracking in Python.
 - [Mastodon](https://imagej.net/plugins/mastodon) - Large-scale tracking in Fiji.
+- [SAM-PT](https://github.com/SysCV/sam-pt) - Segment Anything Meets Point Tracking.
 <!-- - [DeepTrack2](https://github.com/DeepTrackAI/DeepTrack2) - Deep learning framework for digital microscopy. -->
 
 ## 🌻 Visualization
@@ -205,20 +207,20 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 
 ### Software tools
 
-- [Fiji - Volume Viewer](https://imagej.net/plugins/volume-viewer) - Ideal for Fiji users
-- [Fiji - 3D Viewer](https://imagej.net/plugins/3d-viewer/) - Ideal for Fiji users
-- [Fiji - 3Dscript](https://imagej.net/plugins/3dscript) - 3D rendering animations in Fiji
-- [Napari](https://napari.org/stable/) - Interactive nD image viewer in Python
-- [PyVista](https://pyvista.org/) - 3D visualizations in Python through VTK
-- [vedo](https://github.com/marcomusy/vedo) - Scientific visualizations of 3D objects
-- [itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) - VTK viewer in Jupyter notebooks
-- [stackview](https://github.com/haesleinhuepf/stackview/) - 3D stack visualization in Jupyter notebooks
-- [Paraview](https://www.paraview.org/) - Scientific visualizations through VTK
-- [tif2blender](https://github.com/oanegros/tif2blender) - Microscopy image visualization in Blender
-- [Fiji - BigDataViewer](https://imagej.net/plugins/bdv/) - Ideal for big data
-- [Neuroglancer](https://github.com/google/neuroglancer) - Browser-based visualizations compatible with large images (zarr)
-- [vizarr](https://github.com/hms-dbmi/vizarr) - Simple Zarr viewer
-- [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file) - Multiscale visualization on the web
+- [Fiji - Volume Viewer](https://imagej.net/plugins/volume-viewer) - Ideal for Fiji users.
+- [Fiji - 3D Viewer](https://imagej.net/plugins/3d-viewer/) - Ideal for Fiji users.
+- [Fiji - 3Dscript](https://imagej.net/plugins/3dscript) - 3D rendering animations in Fiji.
+- [Napari](https://napari.org/stable/) - Interactive nD image viewer in Python.
+- [PyVista](https://pyvista.org/) - 3D visualizations in Python through VTK.
+- [vedo](https://github.com/marcomusy/vedo) - Scientific visualizations of 3D objects.
+- [itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) - VTK viewer in Jupyter notebooks.
+- [stackview](https://github.com/haesleinhuepf/stackview/) - 3D stack visualization in Jupyter notebooks.
+- [Paraview](https://www.paraview.org/) - Scientific visualizations through VTK.
+- [tif2blender](https://github.com/oanegros/tif2blender) - Microscopy image visualization in Blender.
+- [Fiji - BigDataViewer](https://imagej.net/plugins/bdv/) - Ideal for big data.
+- [Neuroglancer](https://github.com/google/neuroglancer) - Browser-based visualizations compatible with large images (zarr).
+- [vizarr](https://github.com/hms-dbmi/vizarr) - Simple Zarr viewer.
+- [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file) - Multiscale visualization on the web.
 <!-- - [K3D-jupyter](https://k3d-jupyter.org/index.html) -->
 <!-- - [fastplotlib](https://github.com/fastplotlib/fastplotlib) -->
 <!-- - [microfilm](https://github.com/guiwitz/microfilm) -->
@@ -283,7 +285,7 @@ Python is a popular programming language for scientific image analysis.
 
 ### Python programming
 
-- [Python 3 documentation](https://docs.python.org/3/)
+- [Python 3 documentation](https://docs.python.org/3/) - The official Python documentation.
 - [Programming with Python](https://swcarpentry.github.io/python-novice-inflammation/index.html) - Software Carpentry.
 <!-- - [Intermediate Research Software Development](https://carpentries-incubator.github.io/python-intermediate-development/) - Carpentries Incubator. -->
 <!-- - [Python packaging 101](https://www.pyopensci.org/python-package-guide/tutorials/intro.html) -->
@@ -295,6 +297,7 @@ Python is a popular programming language for scientific image analysis.
 - [Scikit-image](https://scikit-image.org/docs/stable/) - Scientific image processing toolbox.
 - [scipy.ndimage](https://docs.scipy.org/doc/scipy/reference/ndimage.html) - Multidimensional image processing.
 - [opencv-python](https://github.com/opencv/opencv-python) - Computer vision toolbox.
+- [Introduction to Python for Image Analysis](https://epfl-center-for-imaging.github.io/python-intro-images/lab/index.html?path=Content.ipynb) - Notebook running on Jupyterlite. 
 <!-- - [Image processing with Python](https://datacarpentry.org/image-processing/) - Data Carpentry. -->
 <!-- - [Image processing with Python](https://github.com/guiwitz/Python_image_processing) - Guillaume Witz. -->
 <!-- - [3.3. Scikit-image: image processing](https://scipy-lectures.org/packages/scikit-image/index.html) - Scientific Python Lectures. -->
