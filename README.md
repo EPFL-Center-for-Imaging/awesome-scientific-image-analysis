@@ -1,4 +1,4 @@
-![EPFL Center for Imaging logo](https://imaging.epfl.ch/resources/logo-for-gitlab.svg)
+![logo](https://imaging.epfl.ch/resources/logo-for-gitlab.svg)
 ![epfl](./assets/epfl.jpeg)
 # Awesome Scientific Image Analysis [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
@@ -106,8 +106,8 @@ Image segmentation aims to create a segmentation mask that identifies specific c
 - [YOLO11 - Instance Segmentation](https://docs.ultralytics.com/tasks/segment/) - Image segmentation using Ultralytics YOLO.
 - [rembg](https://github.com/danielgatis/rembg) - Remove image backgrounds.
 - [nnUNet](https://github.com/MIC-DKFZ/nnUNet) - U-Net based biomedical image segmentation (2D and 3D).
-- [segmentation_models](https://github.com/qubvel/segmentation_models) - Segmentation models with pretrained backbones in Keras (Tensorflow).
-- [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) - Segmentation models with pretrained backbones in Pytorch.
+- [segmentation_models](https://github.com/qubvel/segmentation_models) - Segmentation models with pretrained backbones in Keras (TensorFlow).
+- [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) - Segmentation models with pretrained backbones in PyTorch.
 - [Monai](https://github.com/Project-MONAI/MONAI) - Pytorch-based deep learning framework for biomedical imaging.
 - [StarDist](https://github.com/stardist/stardist) - Segmentation of cell nuclei and other round (star-convex) objects.
 - [CellPose](https://github.com/mouseland/cellpose) - Segmentation of cells and membranes in microscopy images.
@@ -243,7 +243,7 @@ Performance optimization is the process of making code execution faster, more ef
 ### Software tools
 
 - [pyclesperanto_prototype](https://github.com/clEsperanto/pyclesperanto_prototype) - GPU-accelerated bioimage analysis.
-- [Numba](https://numba.pydata.org/) - JIT compiler for Python and Numpy code.
+- [Numba](https://numba.pydata.org/) - JIT compiler for Python and NumPy code.
 - [cuCIM](https://github.com/rapidsai/cucim) - GPU-accelerated image processing.
 - [OpenCV](https://opencv.org/) - Optimized image processing algorithms.
 
