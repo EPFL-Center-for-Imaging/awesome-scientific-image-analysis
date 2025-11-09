@@ -124,6 +124,7 @@ Image registration is used to align multiple images, stabilize sequences by comp
 
 - [Image correlation - Practice](https://www.spam-project.dev/docs/tutorials/tutorial-02b-DIC-practice.html)
 - [Image correlation - Theory](https://www.spam-project.dev/docs/tutorials/tutorial-02a-DIC-theory.html)
+- [Intro to Image Registration](https://www.youtube.com/watch?v=zDaCVSXMIm4) - Ella Bahry.
 
 ### Software tools
 
