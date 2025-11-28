@@ -1,8 +1,12 @@
-![logo](https://imaging.epfl.ch/resources/logo-for-gitlab.svg)
+<!-- ![logo](https://imaging.epfl.ch/resources/logo-for-gitlab.svg) -->
 ![epfl](./assets/epfl.jpeg)
 # Awesome Scientific Image Analysis [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of scientific image analysis resources and software tools.
+> A curated list of scientific image analysis resources and software tools.
+
+Scientific image analysis addresses issues related to the acquisition, processing, storage, visualization, and extraction of quantitative measurements from images.
+
+Contributions to this list are welcome (➡️ [contributing.md](./contributing.md)). Add your resource suggestions via pull requests or create an issue to start a discussion.
 
 ## 📌 Contents
 
@@ -15,6 +19,7 @@ A curated list of scientific image analysis resources and software tools.
 - [🔍 Object detection](#-object-detection)
 - [🐾 Tracking](#-tracking)
 - [🌻 Visualization](#-visualization)
+- [🧩 OME-Zarr](#-ome-zarr)
 - [🔋 Performance](#-performance)
 - [🕊️ Open science](#️-open-science)
 - [🐍 Python](#-python)
@@ -49,7 +54,6 @@ General image analysis software:
 
 Python:
 
-- [Setting up Python for scientific image analysis](https://imaging.epfl.ch/field-guide/sections/python/notebooks/python_setup.html) - Short guide by the EPFL Center for Imaging.
 - [Introduction to Python for Image Analysis](https://epfl-center-for-imaging.github.io/python-intro-images/lab/index.html?path=python-intro%2FContent.ipynb) - Jupyterlite Notebook (no installation required).
 
 ## 🧑‍🤝‍🧑 Communities
@@ -76,9 +80,10 @@ Python:
 - [2023 - Towards effective adoption of novel image analysis methods](https://www.nature.com/articles/s41592-023-01910-2) - Talley Lambert, Jennifer Waters.
 - [2022 - A Hitchhiker's guide through the bio-image analysis software universe](https://febs.onlinelibrary.wiley.com/doi/full/10.1002/1873-3468.14451) - Robert Haase et al.
 
-### Video series
+### Videos
 
 - [DigitalSreeni](https://www.youtube.com/c/DigitalSreeni) - Focused on Python and deep learning for image analysis.
+- [I2K Conference](https://www.youtube.com/@I2KConference) - Recordings from Virtual I2K conferences.
 <!-- - [Microcourses](https://www.youtube.com/@Microcourses/videos) -->
 <!-- - [Optical microscopy Image Processing & analysis](https://www.youtube.com/@johanna.m.dela-cruz/videos) -->
 <!-- - [Aits Lab](https://www.youtube.com/channel/UCmh81PBL4lU6r6mcGqhRPbQ/playlists) -->
@@ -101,12 +106,11 @@ Image segmentation aims to create a segmentation mask that identifies specific c
 
 - [skimage.segmentation](https://scikit-image.org/docs/stable/api/skimage.segmentation.html) - Classical segmentation algorithms in Python.
 - [Ilastik - Pixel Classification](https://www.ilastik.org/documentation/pixelclassification/pixelclassification) - Semi-supervised workflow for pixel classification.
-- [Segment Anything Model 2 (SAM 2)](https://github.com/facebookresearch/sam2) - Promptable, foundation model for image segmentation.
+- [Segment Anything Model 3 (SAM 3)](https://github.com/facebookresearch/sam3) - Promptable foundation model for image segmentation.
 - [SAMJ](https://github.com/segment-anything-models-java/SAMJ-IJ) - Segment Anything in Fiji.
-- [YOLO11 - Instance Segmentation](https://docs.ultralytics.com/tasks/segment/) - Image segmentation using Ultralytics YOLO.
+- [Ultralytics YOLO - Instance Segmentation](https://docs.ultralytics.com/tasks/segment/) - Image segmentation using YOLO models.
 - [rembg](https://github.com/danielgatis/rembg) - Remove image backgrounds.
 - [nnUNet](https://github.com/MIC-DKFZ/nnUNet) - U-Net based biomedical image segmentation (2D and 3D).
-- [segmentation_models](https://github.com/qubvel/segmentation_models) - Segmentation models with pretrained backbones in Keras (TensorFlow).
 - [segmentation_models.pytorch](https://github.com/qubvel/segmentation_models.pytorch) - Segmentation models with pretrained backbones in PyTorch.
 - [Monai](https://github.com/Project-MONAI/MONAI) - Pytorch-based deep learning framework for biomedical imaging.
 - [StarDist](https://github.com/stardist/stardist) - Segmentation of cell nuclei and other round (star-convex) objects.
@@ -122,9 +126,8 @@ Image registration is used to align multiple images, stabilize sequences by comp
 
 ### Learning resources
 
-- [Image correlation - Practice](https://www.spam-project.dev/docs/tutorials/tutorial-02b-DIC-practice.html)
-- [Image correlation - Theory](https://www.spam-project.dev/docs/tutorials/tutorial-02a-DIC-theory.html)
-- [Intro to Image Registration](https://www.youtube.com/watch?v=zDaCVSXMIm4) - Ella Bahry.
+- [Image correlation - Theory](https://www.spam-project.dev/docs/tutorials/tutorial-02a-DIC-theory.html) - Introduction to optical flow (DIC).
+- [Intro to Image Registration](https://www.youtube.com/watch?v=zDaCVSXMIm4) - Overview by Ella Bahry (video format).
 
 ### Software tools
 
@@ -165,13 +168,16 @@ Image denoising enhances visual quality by removing noise, making structures mor
 
 Object detection is the process of identifying and localizing objects within an image or video using various shapes such as bounding boxes, keypoints, circles, or other geometric representations.
 
+### Learning resources
+
+- [C4W3L09 YOLO Algorithm](https://www.youtube.com/watch?v=9s_FpMpdYW8) - Introduction by Andrew Ng (video format).
+
 ### Software tools
 
-- [YOLO11 - Object Detection](https://github.com/ultralytics/ultralytics) - Object detection using Ultralytics YOLO.
+- [Ultralytics YOLO - Object Detection](https://github.com/ultralytics/ultralytics) - YOLO models for object detection (bounding boxes).
 - [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut) - Animal pose estimation.
 - [OpenPifPaf](https://github.com/openpifpaf/openpifpaf) - Human pose estimation.
 - [Spotiflow](https://github.com/weigertlab/spotiflow) - Spot detection for microscopy data.
-<!-- - [Detectron2](https://github.com/facebookresearch/detectron2) -->
 
 ## 🐾 Tracking
 
@@ -179,10 +185,8 @@ Object tracking is the process of following objects across time in a video or im
 
 ### Learning resources
 
-- [Getting started with TrackMate](https://imagej.net/plugins/trackmate/tutorials/getting-started)
-- [Walkthrough (trackpy)](https://soft-matter.github.io/trackpy/dev/tutorial/walkthrough.html)
-- [Single cell tracking with napari](https://napari.org/stable/tutorials/tracking/cell_tracking.html)
-<!-- - [Trackmate Introduction and Demo](https://www.youtube.com/watch?v=7HWtaikIFcs) -->
+- [Getting started with TrackMate](https://imagej.net/plugins/trackmate/tutorials/getting-started) - Introduction for Fiji users.
+- [Walkthrough (trackpy)](https://soft-matter.github.io/trackpy/dev/tutorial/walkthrough.html) - Introduction for Python users.
 
 ### Software tools
 
@@ -219,18 +223,25 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 - [Paraview](https://www.paraview.org/) - Scientific visualizations through VTK.
 - [tif2blender](https://github.com/oanegros/tif2blender) - Microscopy image visualization in Blender.
 - [Fiji - BigDataViewer](https://imagej.net/plugins/bdv/) - Ideal for big data.
-- [Neuroglancer](https://github.com/google/neuroglancer) - Browser-based visualizations compatible with large images (zarr).
-- [vizarr](https://github.com/hms-dbmi/vizarr) - Simple Zarr viewer.
-- [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file) - Multiscale visualization on the web.
 <!-- - [K3D-jupyter](https://k3d-jupyter.org/index.html) -->
 <!-- - [fastplotlib](https://github.com/fastplotlib/fastplotlib) -->
-<!-- - [microfilm](https://github.com/guiwitz/microfilm) -->
-<!-- - [microviewer](https://github.com/seung-lab/microviewer) -->
 <!-- - [hyperspy](https://github.com/hyperspy/hyperspy) -->
 <!-- - [ndv](https://github.com/pyapp-kit/ndv) -->
 <!-- - [supervision](https://github.com/roboflow/supervision) -->
-<!-- - [NeuroMorph](https://github.com/NeuroMorph-EPFL/NeuroMorph) -->
 <!-- - [3D Slicer](https://www.slicer.org/) -->
+
+## 🧩 OME-Zarr
+
+### Learning resources
+
+- [An Introduction to OME-Zarr for Big Bioimaging Data](https://ome-zarr-book.readthedocs.io/)
+
+### Software tools
+
+- [Fractal](https://fractal-analytics-platform.github.io/) - Framework to process bioimaging data at scale in the OME-Zarr format.
+- [Neuroglancer](https://github.com/google/neuroglancer) - Browser-based visualizations compatible with large images (zarr).
+- [vizarr](https://github.com/hms-dbmi/vizarr) - Simple Zarr viewer.
+<!-- - [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file) - Multiscale visualization on the web. -->
 
 ## 🔋 Performance
 
@@ -238,8 +249,8 @@ Performance optimization is the process of making code execution faster, more ef
 
 ### Learning resources
 
+- [GPU-Accelerated Image Analysis](https://biapol.github.io/PoL-BioImage-Analysis-TS-GPU-Accelerated-Image-Analysis/intro.html) - PoL Bio-Image Analysis Training School.
 - [System aspects - Basics of Computing Environments for Scientists](https://compenv.phys.ethz.ch/system_aspects/)
-- [Accelerated large-scale image procesing in Python](https://github.com/EPFL-Center-for-Imaging/accel-large-image-proc-talk)
 
 ### Software tools
 
@@ -255,7 +266,6 @@ Open imaging science meets principles of findability, accessibility, interoperab
 ### Software development practices
 
 - [The Turing Way handbook](https://the-turing-way.netlify.app/index.html)
-- [Code Publishing cheat sheet](https://www.epfl.ch/schools/enac/wp-content/uploads/2022/06/ENAC-IT4R_Code_Publishing_Cheat_Sheet.pdf)
 - [Good enough practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
 
 ### Reproducibility
@@ -279,10 +289,9 @@ Python is a popular programming language for scientific image analysis.
 
 ### Python setup
 
+- [Setting up Python for scientific image analysis](https://epfl-center-for-imaging.github.io/python-setup/) - Short guide by the EPFL Center for Imaging.
 - [Managing Conda Environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 - [Python environments workshop](https://hackmd.io/@talley/SJB_lObBi) - Talley Lambert.
-- [Setting up Python for scientific image analysis](https://epfl-center-for-imaging.github.io/python-setup/) - EPFL Center for Imaging.
-<!-- - [Conda Cheatsheet](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf) -->
 
 ### Python programming
 
@@ -293,12 +302,12 @@ Python is a popular programming language for scientific image analysis.
 <!-- - [pydevtips: Python Development Tips](https://pydevtips.readthedocs.io/en/latest/index.html) - Eric Bezzam. -->
 <!-- - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) -->
 
-### Python for image processing
+### Image processing with Python
 
 - [Scikit-image](https://scikit-image.org/docs/stable/) - Scientific image processing toolbox.
 - [scipy.ndimage](https://docs.scipy.org/doc/scipy/reference/ndimage.html) - Multidimensional image processing.
 - [opencv-python](https://github.com/opencv/opencv-python) - Computer vision toolbox.
-- [Introduction to Python for Image Analysis](https://epfl-center-for-imaging.github.io/python-intro-images/lab/index.html?path=Content.ipynb) - Notebook running on Jupyterlite. 
+- [Introduction to Python for Image Analysis](https://epfl-center-for-imaging.github.io/python-intro-images/lab/index.html?path=Content.ipynb) - Jupyterlite Notebook (no installation required).
 <!-- - [Image processing with Python](https://datacarpentry.org/image-processing/) - Data Carpentry. -->
 <!-- - [Image processing with Python](https://github.com/guiwitz/Python_image_processing) - Guillaume Witz. -->
 <!-- - [3.3. Scikit-image: image processing](https://scipy-lectures.org/packages/scikit-image/index.html) - Scientific Python Lectures. -->
@@ -317,6 +326,12 @@ Fiji is an open-source software for image processing and analysis. A wide range 
 
 - [MorphoLibJ](https://imagej.net/plugins/morpholibj) - Morphological operations.
 - [DeepImageJ](https://deepimagej.github.io/) - Run deep learning models in Fiji.
+- [BigStitcher](https://imagej.net/plugins/bigstitcher/) - Stitching for large images.
+- [OMERO](https://imagej.net/software/omero) - Interact with OMERO from Fiji.
+- [PTBIOP](https://wiki-biop.epfl.ch/en/ipa/fiji/update-site) - BIOP Fiji Update Site.
+- [FFMPEG](https://imagej.net/plugins/ffmpeg-video-import-export) - Load videos into Fiji.
+- [Bio-Formats](https://imagej.net/formats/bio-formats) - Import data from many life sciences file formats.
+- [CSBDeep](https://imagej.net/plugins/csbdeep) - Access CSBDeep based tools in Fiji.
 
 ## 🏝️ Napari
 
@@ -338,6 +353,7 @@ To browse all plugins, see [napari hub](https://www.napari-hub.org/).
 - [napari-clusters-plotter](https://github.com/BiAPoL/napari-clusters-plotter) - Object clustering.
 - [napari-accelerated-pixel-and-object-classification](https://github.com/haesleinhuepf/napari-accelerated-pixel-and-object-classification) - Semi-supervised pixel classification.
 - [napari-convpaint](https://github.com/guiwitz/napari-convpaint) - Pixel classification based on deep learning feature extraction.
+- [napari-serverkit](https://github.com/Imaging-Server-Kit/napari-serverkit) - Run algorithms interactively in Napari.
 
 ## 🧬 QuPath
 
@@ -347,9 +363,9 @@ QuPath is an open software for bioimage analysis, often used to process and visu
 
 ### Extensions
 
+- [qupath-extension-sam](https://github.com/ksugar/qupath-extension-sam) - Segment Anything in QuPath.
 - [qupath-extension-cellpose](https://github.com/BIOP/qupath-extension-cellpose) - CellPose.
 - [qupath-extension-stardist](https://github.com/qupath/qupath-extension-stardist) - StarDist.
-- [qupath-extension-sam](https://github.com/ksugar/qupath-extension-sam) - Segment Anything in QuPath.
 
 ## 🏗️ Infrastructure
 
@@ -357,11 +373,11 @@ Infrastructure tools for image analysis workflows (and related).
 
 - [BIOP-desktop](https://biop.github.io/biop-desktop-doc/) - Virtual desktop for bioimage analysis.
 - [BAND](https://bandv1.denbi.uni-tuebingen.de/#/eosc-landingpage) - Bioimage ANalysis Desktop.
-- [Fractal](https://fractal-analytics-platform.github.io/) - Framework to process bioimaging data at scale in the OME-Zarr format.
 - [Galaxy (EU)](https://live.usegalaxy.eu/) - Web-based platform for accessible computational research.
 - [Renkulab](https://renkulab.io/) - Data, Code, and Compute all under one roof.
 - [Hugging Face Spaces](https://huggingface.co/spaces) - Build, host, and share ML apps.
 - [BioImage.IO dev](https://dev.bioimage.io/) - Models, Datasets, and Applications for bioimage analysis.
+- [Imaging Server Kit](https://github.com/Imaging-Server-Kit/imaging-server-kit) - Run image processing algorithms via a web API.
 
 ## 🛸 Other
 
