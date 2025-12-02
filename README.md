@@ -48,7 +48,6 @@ Courses in video format:
 General image analysis software:
 
 - [Fiji](https://fiji.sc/) - ImageJ, with “batteries-included”.
-- [Ilastik](https://www.ilastik.org/) - Interactive learning and segmentation toolkit.
 - [Napari](https://napari.org/) - A fast and interactive multi-dimensional image viewer for Python.
 - [QuPath](https://qupath.github.io/) - Open Software for Bioimage Analysis.
 
@@ -105,7 +104,7 @@ Image segmentation aims to create a segmentation mask that identifies specific c
 ### Software tools
 
 - [skimage.segmentation](https://scikit-image.org/docs/stable/api/skimage.segmentation.html) - Classical segmentation algorithms in Python.
-- [Ilastik - Pixel Classification](https://www.ilastik.org/documentation/pixelclassification/pixelclassification) - Semi-supervised workflow for pixel classification.
+- [Ilastik - Pixel Classification](https://www.ilastik.org/documentation/pixelclassification/pixelclassification) - Semi-supervised workflow for pixel classification. Also offers tracking and cell count.
 - [Segment Anything Model 3 (SAM 3)](https://github.com/facebookresearch/sam3) - Promptable foundation model for image segmentation.
 - [SAMJ](https://github.com/segment-anything-models-java/SAMJ-IJ) - Segment Anything in Fiji.
 - [Ultralytics YOLO - Instance Segmentation](https://docs.ultralytics.com/tasks/segment/) - Image segmentation using YOLO models.
