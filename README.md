@@ -49,6 +49,7 @@ General image analysis software:
 
 - [Fiji](https://fiji.sc/) - ImageJ, with “batteries-included”.
 - [Napari](https://napari.org/) - A fast and interactive multi-dimensional image viewer for Python.
+- [CellProfiler](https://cellprofiler.org/) - Open software for automated quantification of biological images.
 - [QuPath](https://qupath.github.io/) - Open Software for Bioimage Analysis.
 
 Python:
