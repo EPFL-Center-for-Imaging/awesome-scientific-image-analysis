@@ -399,6 +399,15 @@ Infrastructure tools for image analysis workflows (and related).
 - [Pyxu](https://pyxu-org.github.io/) - Modular and Scalable Computational Imaging.
 <!-- - [Welcome to Inverse Problems and Imaging](https://tristanvanleeuwen.github.io/IP_and_Im_Lectures/intro.html) -->
 
+### 🔬 Spot Detection
+
+- [RS-FISH](https://github.com/PreibischLab/RS-FISH) - Spot detection in 2D and 3D images in Fiji.
+- [Big-FISH](https://github.com/fish-quant/big-fish) - smFISH spot detection and analysis in Python.
+
+### 🧪 Quality Control
+
+- [Pixel Patrol](https://github.com/ida-mdc/pixel-patrol) - Scientific dataset quality control and data exploration.
+
 ### 🖌️ Image annotation
 
 - [makesense.ai](https://www.makesense.ai/) - Simple annotation app for YOLO models.
