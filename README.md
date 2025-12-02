@@ -213,6 +213,7 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 
 - [Fiji - Volume Viewer](https://imagej.net/plugins/volume-viewer) - Ideal for Fiji users.
 - [Fiji - 3D Viewer](https://imagej.net/plugins/3d-viewer/) - Ideal for Fiji users.
+- [Fiji - MoBIE](https://imagej.net/plugins/mobie) - Fiji-based visualization tool for large images.
 - [Fiji - 3Dscript](https://imagej.net/plugins/3dscript) - 3D rendering animations in Fiji.
 - [Napari](https://napari.org/stable/) - Interactive nD image viewer in Python.
 - [PyVista](https://pyvista.org/) - 3D visualizations in Python through VTK.
