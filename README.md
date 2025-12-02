@@ -197,6 +197,9 @@ Object tracking is the process of following objects across time in a video or im
 - [LapTrack](https://github.com/yfukai/laptrack) - Particle tracking in Python.
 - [Mastodon](https://imagej.net/plugins/mastodon) - Large-scale tracking in Fiji.
 - [SAM-PT](https://github.com/SysCV/sam-pt) - Segment Anything Meets Point Tracking.
+- [DeepLabCut](https://www.deeplabcut.org/) - Multi-animal pose tracking using deep learning - robust.
+- [SLEAP](https://sleap.ai/) - Multi-animal pose tracking using deep learning - fast.
+- [MoSeq2](https://dattalab.github.io/moseq2-website/index.html) - Unsupervised tracking of behavior sequences in animals.
 <!-- - [DeepTrack2](https://github.com/DeepTrackAI/DeepTrack2) - Deep learning framework for digital microscopy. -->
 
 ## 🌻 Visualization
@@ -258,6 +261,7 @@ Performance optimization is the process of making code execution faster, more ef
 - [Numba](https://numba.pydata.org/) - JIT compiler for Python and NumPy code.
 - [cuCIM](https://github.com/rapidsai/cucim) - GPU-accelerated image processing.
 - [OpenCV](https://opencv.org/) - Optimized image processing algorithms.
+- [Dask](https://www.dask.org/) - Parallel computing in Python for scalable image analysis.
 
 ## 🕊️ Open science
 
