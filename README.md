@@ -41,7 +41,7 @@ Online courses to learn scientific image analysis:
 
 Courses in video format:
 
-- [First principles in computer vision](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw) - Columbia University.
+- [First Principles of Computer Vision](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw) - Columbia University.
 - [Introduction to bioimage analysis](https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U&index=3) - Robert Haase.
 - [Microscopy Series](https://www.ibiology.org/online-biology-courses/microscopy-series/) - iBiology. Focused on microscopy techniques.
 
@@ -97,15 +97,16 @@ Image segmentation aims to create a segmentation mask that identifies specific c
 
 ### Learning resources
 
-- [Thresholding - Introduction to Bioimage Analysis](https://bioimagebook.github.io/chapters/2-processing/3-thresholding/thresholding.html)
-- [Image segmentation - Image data science with Python and Napari](https://biapol.github.io/Image-data-science-with-Python-and-Napari-EPFL2022/day2d_image_segmentation/readme.html)
-<!-- - [Segmentation - ImageJ Tutorials](https://imagej.net/imaging/segmentation) -->
-<!-- - [Thresholding - Scikit-image](https://scikit-image.org/docs/dev/auto_examples/segmentation/plot_thresholding.html) -->
+- [Image segmentation](https://biapol.github.io/Image-data-science-with-Python-and-Napari-EPFL2022/day2d_image_segmentation/readme.html) - Image data science with Python and Napari.
+- [Image Segmentation](https://www.youtube.com/watch?v=onWJQY5oFhs&list=PL2zRqk16wsdop2EatuowXBX5C-r2FdyNt) - First Principles of Computer Vision (video format).
+- [Thresholding](https://bioimagebook.github.io/chapters/2-processing/3-thresholding/thresholding.html) - Introduction to Bioimage Analysis.
+- [Segmentation](https://imagej.net/imaging/segmentation) - ImageJ Tutorials.
+- [Thresholding](https://scikit-image.org/docs/stable/auto_examples/segmentation/plot_thresholding.html)- With Scikit-image.
 
 ### Software tools
 
 - [skimage.segmentation](https://scikit-image.org/docs/stable/api/skimage.segmentation.html) - Classical segmentation algorithms in Python.
-- [Ilastik - Pixel Classification](https://www.ilastik.org/documentation/pixelclassification/pixelclassification) - Semi-supervised workflow for pixel classification. Also offers tracking and cell count.
+- [Ilastik - Pixel Classification](https://www.ilastik.org/documentation/pixelclassification/pixelclassification) - Semi-supervised workflow for pixel classification.
 - [Segment Anything Model 3 (SAM 3)](https://github.com/facebookresearch/sam3) - Promptable foundation model for image segmentation.
 - [SAMJ](https://github.com/segment-anything-models-java/SAMJ-IJ) - Segment Anything in Fiji.
 - [Ultralytics YOLO - Instance Segmentation](https://docs.ultralytics.com/tasks/segment/) - Image segmentation using YOLO models.
@@ -128,6 +129,7 @@ Image registration is used to align multiple images, stabilize sequences by comp
 
 - [Image correlation - Theory](https://www.spam-project.dev/docs/tutorials/tutorial-02a-DIC-theory.html) - Introduction to optical flow (DIC).
 - [Intro to Image Registration](https://www.youtube.com/watch?v=zDaCVSXMIm4) - Overview by Ella Bahry (video format).
+- [Optical Flow](https://www.youtube.com/watch?v=lnXFcmLB7sM&list=PL2zRqk16wsdoYzrWStffqBAoUY8XdvatV) - First Principles of Computer Vision (video format).
 
 ### Software tools
 
@@ -170,14 +172,24 @@ Object detection is the process of identifying and localizing objects within an 
 
 ### Learning resources
 
-- [C4W3L09 YOLO Algorithm](https://www.youtube.com/watch?v=9s_FpMpdYW8) - Introduction by Andrew Ng (video format).
+- [C4W3L09 YOLO Algorithm](https://www.youtube.com/watch?v=9s_FpMpdYW8) - Introduction to YOLO by Andrew Ng (video format).
+- [Detecting Blobs](https://www.youtube.com/watch?v=zItstOggP7M) - First Principles of Computer Vision (video format).
 
-### Software tools
+### Bounding boxes
 
-- [Ultralytics YOLO - Object Detection](https://github.com/ultralytics/ultralytics) - YOLO models for object detection (bounding boxes).
-- [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut) - Animal pose estimation.
-- [OpenPifPaf](https://github.com/openpifpaf/openpifpaf) - Human pose estimation.
+- [Ultralytics YOLO - Object Detection](https://github.com/ultralytics/ultralytics) - YOLO models for object detection.
+<!-- - [nnDetection](https://github.com/MIC-DKFZ/nnDetection) - 3D bounding box detection. -->
+
+### Spots
+
 - [Spotiflow](https://github.com/weigertlab/spotiflow) - Spot detection for microscopy data.
+- [RS-FISH](https://github.com/PreibischLab/RS-FISH) - Spot detection in 2D and 3D images in Fiji.
+- [Big-FISH](https://github.com/fish-quant/big-fish) - smFISH spot detection and analysis in Python.
+
+### Pose estimation
+
+- [OpenPifPaf](https://github.com/openpifpaf/openpifpaf) - Human pose estimation.
+- [DeepLabCut](https://www.mackenziemathislab.org/deeplabcut) - Animal pose estimation.
 
 ## 🐾 Tracking
 
@@ -259,6 +271,7 @@ Performance optimization is the process of making code execution faster, more ef
 - [Numba](https://numba.pydata.org/) - JIT compiler for Python and NumPy code.
 - [cuCIM](https://github.com/rapidsai/cucim) - GPU-accelerated image processing.
 - [OpenCV](https://opencv.org/) - Optimized image processing algorithms.
+- [dask-image](https://image.dask.org/en/latest/) - Image processing with Dask Arrays.
 
 ## 🕊️ Open science
 
@@ -392,17 +405,22 @@ Infrastructure tools for image analysis workflows (and related).
 
 - [Cameras and Lenses](https://ciechanow.ski/cameras-and-lenses/) - Bartosz Ciechanowski.
 - [Knowledge Center](https://www.edmundoptics.eu/knowledge-center) - Edmund Optics.
+- [Image Formation](https://www.youtube.com/watch?v=_QjxbQKY4ds&list=PL2zRqk16wsdr9X5rgF-d0pkzPdkHZ4KiT) - First Principles of Computer Vision (video format).
 <!-- - [Guides - Center for Microscopy and Image Analysis](https://zmb.dozuki.com/) - University of Zurich -->
+
+### 🏁 Camera calibration
+
+- [Camera Calibration](https://www.youtube.com/watch?v=lnXFcmLB7sM&list=PL2zRqk16wsdoYzrWStffqBAoUY8XdvatV) - First Principles of Computer Vision (video format).
+
+### 🍄 Photogrammetry
+
+- [Meshroom](https://alicevision.org/view/meshroom.html) - Software for 3D scene reconstruction by photogrammetry.
 
 ### 🩻 Image reconstruction
 
+- [Welcome to Inverse Problems and Imaging](https://tristanvanleeuwen.github.io/IP_and_Im_Lectures/intro.html) - Tristan van Leeuwen and Christoph Brune.
 - [Pyxu](https://pyxu-org.github.io/) - Modular and Scalable Computational Imaging.
-<!-- - [Welcome to Inverse Problems and Imaging](https://tristanvanleeuwen.github.io/IP_and_Im_Lectures/intro.html) -->
-
-### 🔬 Spot Detection
-
-- [RS-FISH](https://github.com/PreibischLab/RS-FISH) - Spot detection in 2D and 3D images in Fiji.
-- [Big-FISH](https://github.com/fish-quant/big-fish) - smFISH spot detection and analysis in Python.
+- [DeepInverse](https://github.com/deepinv/deepinv) - Solve imaging inverse problems using deep learning.
 
 ### 🧪 Quality Control
 
