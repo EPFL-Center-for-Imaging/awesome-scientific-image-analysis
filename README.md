@@ -254,6 +254,7 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 - [Fractal](https://fractal-analytics-platform.github.io/) - Framework to process bioimaging data at scale in the OME-Zarr format.
 - [Neuroglancer](https://github.com/google/neuroglancer) - Browser-based visualizations compatible with large images (zarr).
 - [vizarr](https://github.com/hms-dbmi/vizarr) - Simple Zarr viewer.
+- [fileglancer](https://github.com/JaneliaSciComp/fileglancer) - Browse, share, and publish OME-Zarr data.
 <!-- - [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file) - Multiscale visualization on the web. -->
 
 ## 🔋 Performance
