@@ -394,6 +394,7 @@ Infrastructure tools for image analysis workflows (and related).
 - [BioImage.IO dev](https://dev.bioimage.io/) - Models, Datasets, and Applications for bioimage analysis.
 - [Imaging Server Kit](https://github.com/Imaging-Server-Kit/imaging-server-kit) - Run image processing algorithms via a web API.
 - [OMERO](https://www.openmicroscopy.org/omero/) - Platform for sharing, visualizing and managing microscopy data.
+- [Nextflow](https://github.com/nextflow-io/nextflow) - Create scalable and reproducible workflows.
 
 ## 🛸 Other
 
