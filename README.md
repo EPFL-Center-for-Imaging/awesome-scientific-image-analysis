@@ -369,6 +369,7 @@ To browse all plugins, see [napari hub](https://www.napari-hub.org/).
 - [napari-accelerated-pixel-and-object-classification](https://github.com/haesleinhuepf/napari-accelerated-pixel-and-object-classification) - Semi-supervised pixel classification.
 - [napari-convpaint](https://github.com/guiwitz/napari-convpaint) - Pixel classification based on deep learning feature extraction.
 - [napari-serverkit](https://github.com/Imaging-Server-Kit/napari-serverkit) - Run algorithms interactively in Napari.
+- [napari-data-inspection](https://github.com/MIC-DKFZ/napari-data-inspection) - Rapidly inspect folders of images.
 
 ## 🧬 QuPath
 
