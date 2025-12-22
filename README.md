@@ -7,7 +7,7 @@ Scientific image analysis addresses issues related to the acquisition, processin
 
 Contributions to this list are welcome (➡️ [contributing.md](./contributing.md)). Add your resource suggestions via pull requests or create an issue to start a discussion.
 
-## 📌 Contents
+## Contents
 
 - [🔖 Getting started](#-getting-started)
 - [🧑‍🤝‍🧑 Communities](#-communities)
