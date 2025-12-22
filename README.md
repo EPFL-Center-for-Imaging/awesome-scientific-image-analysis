@@ -406,7 +406,7 @@ Infrastructure tools for image analysis workflows (and related).
 - [OrientationJ](https://bigwww.epfl.ch/demo/orientationj/) - Fiji plugin.
 - [OrientationPy](https://epfl-center-for-imaging.gitlab.io/orientationpy/introduction.html) - 2D and 3D orientation measurements in Python.
 
-## 🕸️ Meshes
+### 🕸️ Meshes
 
 - [scikit-shapes](https://github.com/scikit-shapes/scikit-shapes) - Shape processing in Python.
 
