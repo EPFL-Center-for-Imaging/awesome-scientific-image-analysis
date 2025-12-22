@@ -25,7 +25,7 @@ Contributions to this list are welcome (➡️ [contributing.md](./contributing.
 - [🔬 Fiji (ImageJ)](#-fiji-imagej)
 - [🏝️ Napari](#-napari)
 - [🧬 QuPath](#-qupath)
-- [🏗️ Infrastructure](#️-infrastructure)
+- [🏗️ Infrastructure](#-infrastructure)
 - [🛸 Other](#-other)
 
 ## 🔖 Getting started
