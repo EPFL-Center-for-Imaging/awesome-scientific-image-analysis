@@ -316,11 +316,12 @@ Fiji is an open-source software for image processing and analysis. A wide range 
 
 Napari is a fast and interactive multi-dimensional image viewer for Python. It can be used for browsing, annotating, and analyzing scientific images.
 
-- [Usage (napari.org)](https://napari.org/stable/usage.html)
+- [Usage (napari.org)](https://napari.org/stable/usage.html) - Official usage documentation.
+- [Exploratory data analysis with napari](https://www.youtube.com/watch?v=9y5P6NLpLY4) - Peter Sobolewski, I2K Conference 2026.
 
 ### Plugins
 
-To browse all plugins, see [napari hub](https://www.napari-hub.org/).
+To explore all available plugins, browse the [Napari Hub](https://www.napari-hub.org/).
 
 - [napari-animation](https://github.com/napari/napari-animation) - Create animations.
 - [napari-skimage-regionprops](https://github.com/haesleinhuepf/napari-skimage-regionprops) - Region properties.
@@ -334,6 +335,9 @@ To browse all plugins, see [napari hub](https://www.napari-hub.org/).
 - [napari-convpaint](https://github.com/guiwitz/napari-convpaint) - Pixel classification based on deep learning feature extraction.
 - [napari-serverkit](https://github.com/Imaging-Server-Kit/napari-serverkit) - Run algorithms interactively in Napari.
 - [napari-data-inspection](https://github.com/MIC-DKFZ/napari-data-inspection) - Rapidly inspect folders of images.
+- [napari-plot-profile](https://github.com/haesleinhuepf/napari-plot-profile) - Plot a line profile.
+- [napari-orthogonal-views](https://github.com/AnniekStok/napari-orthogonal-views) - Display orthogonal views.
+- [napari-omero](https://github.com/ome/napari-omero) - Browse your OMERO database.
 
 ## 🧬 QuPath
 
