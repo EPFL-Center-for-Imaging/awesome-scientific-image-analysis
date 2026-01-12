@@ -218,6 +218,8 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 
 ## 🧩 OME-Zarr
 
+OME-Zarr is a file format optimized for storing, viewing, and sharing large images. 
+
 ### Learning resources
 
 - [An Introduction to OME-Zarr for Big Bioimaging Data](https://ome-zarr-book.readthedocs.io/)
@@ -229,6 +231,8 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 - [fileglancer](https://github.com/JaneliaSciComp/fileglancer) - Browse, share, and publish OME-Zarr data.
 - [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file) - Multiscale visualization in the browser.
 - [Fractal](https://fractal-analytics-platform.github.io/) - Framework to process bioimaging data at scale in the OME-Zarr format.
+- [Vol-E](https://volumeviewer.allencell.org/viewer) - Visualize OME-Zarr images in the web browser.
+- [OME-NGFF Validator](https://ome.github.io/ome-ngff-validator/) - Validate an OME-NGFF file.
 
 ## 🔋 Performance
 
