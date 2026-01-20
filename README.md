@@ -187,6 +187,8 @@ Object tracking is the process of following objects across time in a video or im
 - [SAM-PT](https://github.com/SysCV/sam-pt) - Segment Anything Meets Point Tracking.
 - [TrackMate](https://imagej.net/plugins/trackmate/) - Fiji plugin.
 - [Mastodon](https://imagej.net/plugins/mastodon) - Large-scale tracking in Fiji.
+- [Motile Tracker](https://github.com/funkelab/motile_tracker) - Interactive tracking with motile.
+- [traccuracy](https://github.com/live-image-tracking-tools/traccuracy) - Compute tracking accuracy metrics.
 
 ## 🌻 Visualization
 
