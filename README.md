@@ -1,8 +1,6 @@
 ![banner](./assets/banner.png)
 # Awesome Scientific Image Analysis [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A curated list of scientific image analysis resources and software tools.
-
 Scientific image analysis addresses issues related to the acquisition, processing, storage, visualization, and extraction of quantitative measurements from images.
 
 Contributions to this list are welcome (➡️ [contributing.md](./contributing.md)). Add your resource suggestions via pull requests or create an issue to start a discussion.
@@ -66,9 +64,9 @@ Python:
 
 ### Curated lists
 
-- [Awesome Biological Image Analysis](https://github.com/hallvaaw/awesome-biological-image-analysis)
-- [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision)
-- [Awesome Medical Imaging](https://github.com/fepegar/awesome-medical-imaging)
+- [Awesome Biological Image Analysis](https://github.com/hallvaaw/awesome-biological-image-analysis) - List focused on image analysis specific to biology.
+- [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision) - List focused on machine vision.
+- [Awesome Medical Imaging](https://github.com/fepegar/awesome-medical-imaging) - List focused on research in medical imaging.
 
 ### Papers
 
