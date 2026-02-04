@@ -285,7 +285,7 @@ Python is a popular programming language for scientific image analysis.
 - [Setting up Python for scientific image analysis](https://epfl-center-for-imaging.github.io/python-setup/) - Short guide by the EPFL Center for Imaging.
 - [Managing Conda Environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 - [Python environments workshop](https://hackmd.io/@talley/SJB_lObBi) - Talley Lambert.
-- [Python for Bioimage Analysis – Basic Tools and Setup on Windows](https://www.youtube.com/watch?v=tzdFuxF2E3U) - Video guide covering the basics to get started with Python for image analysis and visualization (hands-on 20 mins)
+- [Python for Bioimage Analysis – Basic Tools and Setup on Windows](https://www.youtube.com/watch?v=tzdFuxF2E3U) - Video guide by Alberto Díez.
 
 ### Python programming
 
