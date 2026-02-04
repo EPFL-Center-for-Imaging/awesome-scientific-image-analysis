@@ -268,6 +268,7 @@ Open imaging science meets principles of findability, accessibility, interoperab
 - [Understanding metric-related pitfalls in image analysis validation](https://arxiv.org/abs/2302.01790)
 - [Reporting reproducible imaging protocols](https://www.sciencedirect.com/science/article/pii/S2666166722009194?via%3Dihub)
 - [When seeing is not believing: application-appropriate validation matters for quantitative bioimage analysis](https://www.nature.com/articles/s41592-023-01881-4)
+- [How to share reproducible and easy to set up Python bioimage analysis pipelines using Pixi](https://www.youtube.com/watch?v=rw10YpY7k2I&t=53s)
 
 ### Figures creation
 
@@ -284,6 +285,7 @@ Python is a popular programming language for scientific image analysis.
 - [Setting up Python for scientific image analysis](https://epfl-center-for-imaging.github.io/python-setup/) - Short guide by the EPFL Center for Imaging.
 - [Managing Conda Environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 - [Python environments workshop](https://hackmd.io/@talley/SJB_lObBi) - Talley Lambert.
+- [Python for Bioimage Analysis – Basic Tools and Setup on Windows](https://www.youtube.com/watch?v=tzdFuxF2E3U) - Video guide covering the basics to get started with Python for image analysis and visualization (hands-on 20 mins)
 
 ### Python programming
 
