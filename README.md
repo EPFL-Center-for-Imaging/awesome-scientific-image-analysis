@@ -391,6 +391,7 @@ Infrastructure tools for image analysis workflows (and related).
 ### 🍄 Photogrammetry
 
 - [Meshroom](https://alicevision.org/view/meshroom.html) - Software for 3D scene reconstruction by photogrammetry.
+- [COLMAP](https://github.com/colmap/colmap) - Structure-from-motion and multi-view stereo.
 
 ### 🩻 Image reconstruction
 
