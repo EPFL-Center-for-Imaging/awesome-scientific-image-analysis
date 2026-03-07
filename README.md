@@ -130,8 +130,8 @@ Image denoising enhances visual quality by removing noise, making structures mor
 
 ### Learning resources
 
-- [Noise - Introduction to Bioimage Analysis](https://bioimagebook.github.io/chapters/3-fluorescence/3-formation_noise/formation_noise.html)
-- [Denoising a picture (scikit-image)](https://scikit-image.org/docs/stable/auto_examples/filters/plot_denoise.html)
+- [Noise](https://bioimagebook.github.io/chapters/3-fluorescence/3-formation_noise/formation_noise.html) - Chapter from the Introduction to Bioimage Analysis handbook.
+- [Denoising a picture](https://scikit-image.org/docs/stable/auto_examples/filters/plot_denoise.html) - Tutorial from the Scikit-image website.
 
 ### Software tools
 
@@ -196,7 +196,7 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 
 ### Learning resources
 
-- [Visual image comparison (Scikit-image)](https://scikit-image.org/docs/stable/auto_examples/applications/plot_image_comparison.html#sphx-glr-auto-examples-applications-plot-image-comparison-py)
+- [Visual image comparison](https://scikit-image.org/docs/stable/auto_examples/applications/plot_image_comparison.html#sphx-glr-auto-examples-applications-plot-image-comparison-py) - Tutorial from the Scikit-image website.
 
 ### Software tools
 
@@ -222,7 +222,7 @@ OME-Zarr is a file format optimized for storing, viewing, and sharing large imag
 
 ### Learning resources
 
-- [An Introduction to OME-Zarr for Big Bioimaging Data](https://ome-zarr-book.readthedocs.io/)
+- [An Introduction to OME-Zarr for Big Bioimaging Data](https://ome-zarr-book.readthedocs.io/) - Theory and practice of using the OME-Zarr format.
 
 ### Software tools
 
@@ -257,22 +257,22 @@ Open imaging science meets principles of findability, accessibility, interoperab
 
 ### Software development practices
 
-- [The Turing Way handbook](https://the-turing-way.netlify.app/index.html)
-- [Good enough practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510)
+- [The Turing Way handbook](https://the-turing-way.netlify.app/index.html) - Reproducible, ethical and collaborative data science.
+- [Good enough practices in scientific computing](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005510) - Greg Wilson et al.
 
 ### Reproducibility
 
-- [Reproducible image handling and analysis](https://www.embopress.org/doi/full/10.15252/embj.2020105889)
-- [Understanding metric-related pitfalls in image analysis validation](https://arxiv.org/abs/2302.01790)
-- [Reporting reproducible imaging protocols](https://www.sciencedirect.com/science/article/pii/S2666166722009194?via%3Dihub)
-- [When seeing is not believing: application-appropriate validation matters for quantitative bioimage analysis](https://www.nature.com/articles/s41592-023-01881-4)
-- [How to share reproducible and easy to set up Python bioimage analysis pipelines using Pixi](https://www.youtube.com/watch?v=rw10YpY7k2I&t=53s)
+- [Reproducible image handling and analysis](https://www.embopress.org/doi/full/10.15252/embj.2020105889) - Kota Miura et al.
+- [Understanding metric-related pitfalls in image analysis validation](https://arxiv.org/abs/2302.01790) - Annika Reinke et al.
+- [Reporting reproducible imaging protocols](https://www.sciencedirect.com/science/article/pii/S2666166722009194?via%3Dihub) - DeLaine D. Larsen et al.
+- [When seeing is not believing: application-appropriate validation matters for quantitative bioimage analysis](https://www.nature.com/articles/s41592-023-01881-4) - Jianxu Chen et al.
+- [How to share reproducible and easy to set up Python bioimage analysis pipelines using Pixi](https://www.youtube.com/watch?v=rw10YpY7k2I&t=53s) - Alberto Diez Sanchez (video format).
 
 ### Figures creation
 
-- [Community-developed checklists for publishing images and image analysis](https://arxiv.org/abs/2302.07005)
-- [Creating Clear and Informative Image-based Figures for Scientific Publications](https://www.biorxiv.org/content/10.1101/2020.10.08.327718v2)
-- [Effective image visualization for publications – a workflow using open access tools and concepts](https://f1000research.com/articles/9-1373)
+- [Community-developed checklists for publishing images and image analysis](https://arxiv.org/abs/2302.07005) - Christopher Schmied et al.
+- [Creating Clear and Informative Image-based Figures for Scientific Publications](https://www.biorxiv.org/content/10.1101/2020.10.08.327718v2) - Helena Jambor et al.
+- [Effective image visualization for publications – a workflow using open access tools and concepts](https://f1000research.com/articles/9-1373) - Christopher Schmied et al.
 
 ## 🐍 Python
 
@@ -281,7 +281,7 @@ Python is a popular programming language for scientific image analysis.
 ### Python setup
 
 - [Setting up Python for scientific image analysis](https://epfl-center-for-imaging.github.io/python-setup/) - Short guide by the EPFL Center for Imaging.
-- [Managing Conda Environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+- [Managing Conda Environments](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) - Official docs.
 - [Python environments workshop](https://hackmd.io/@talley/SJB_lObBi) - Talley Lambert.
 - [Python for Bioimage Analysis – Basic Tools and Setup on Windows](https://www.youtube.com/watch?v=tzdFuxF2E3U) - Video guide by Alberto Díez.
 
@@ -349,7 +349,7 @@ To explore all available plugins, browse the [Napari Hub](https://www.napari-hub
 
 QuPath is an open software for bioimage analysis, often used to process and visualize digital pathology and whole slide images.
 
-- [QuPath Documentation](https://qupath.readthedocs.io/en/stable/)
+- [QuPath Documentation](https://qupath.readthedocs.io/en/stable/) - Official docs.
 
 ### Extensions
 
@@ -375,8 +375,8 @@ Infrastructure tools for image analysis workflows (and related).
 
 ### 🤖 LLMs
 
-- [bia-bob](https://github.com/haesleinhuepf/bia-bob)
-- [BioImage.IO Chatbot](https://github.com/bioimage-io/bioimageio-chatbot)
+- [bia-bob](https://github.com/haesleinhuepf/bia-bob) - LLM-based assistant for interacting with image data.
+- [BioImage.IO Chatbot](https://github.com/bioimage-io/bioimageio-chatbot) - AI assistant specialized in bioimaging.
 
 ### 📷 Image acquisition
 
