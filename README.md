@@ -3,8 +3,6 @@
 
 Scientific image analysis addresses issues related to the acquisition, processing, storage, visualization, and extraction of quantitative measurements from images.
 
-Contributions to this list are welcome (➡️ [contributing.md](./contributing.md)). Add your resource suggestions via pull requests or create an issue to start a discussion.
-
 ## Contents
 
 - [🔖 Getting started](#-getting-started)
@@ -420,3 +418,7 @@ Infrastructure tools for image analysis workflows (and related).
 - [bioio](https://github.com/bioio-devs/bioio) - Read, write, and manage microscopy images.
 - [imantics](https://imantics.readthedocs.io/en/latest/) - Image annotation semantics.
 - [Pixel Patrol](https://github.com/ida-mdc/pixel-patrol) - Scientific dataset quality control and data exploration.
+
+## Contributing
+
+Contributions to this list are welcome (➡️ [contributing.md](./contributing.md)). Add your resource suggestions via pull requests or create an issue to start a discussion.
