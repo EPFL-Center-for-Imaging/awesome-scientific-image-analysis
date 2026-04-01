@@ -1,4 +1,6 @@
-[![banner](./assets/banner.png)](https://github.com/EPFL-Center-for-Imaging/awesome-scientific-image-analysis)
+<a href="https://github.com/EPFL-Center-for-Imaging/awesome-scientific-image-analysis">
+    <img src="https://raw.githubusercontent.com/EPFL-Center-for-Imaging/awesome-scientific-image-analysis/main/assets/banner.png" width=1151px>
+</a>
 # Awesome Scientific Image Analysis [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 Scientific image analysis addresses issues related to the acquisition, processing, storage, visualization, and extraction of quantitative measurements from images.
