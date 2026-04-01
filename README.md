@@ -56,9 +56,9 @@ General image analysis software:
 
 ### Curated lists
 
-- [Awesome Biological Image Analysis](https://github.com/hallvaaw/awesome-biological-image-analysis) - List focused on image analysis specific to biology.
-- [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision) - List focused on machine vision.
-- [Awesome Medical Imaging](https://github.com/fepegar/awesome-medical-imaging) - List focused on research in medical imaging.
+- [Awesome Biological Image Analysis](https://github.com/hallvaaw/awesome-biological-image-analysis) - Image analysis techniques for biological research.
+- [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision) - Algorithms and tools for machine vision.
+- [Awesome Medical Imaging](https://github.com/fepegar/awesome-medical-imaging) - Research tools for medical imaging.
 
 ### Papers
 
