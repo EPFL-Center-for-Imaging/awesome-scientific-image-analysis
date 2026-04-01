@@ -381,6 +381,7 @@ Infrastructure tools for image analysis workflows (and related).
 ### 🏁 Camera calibration
 
 - [Camera Calibration](https://www.youtube.com/watch?v=GUbWsXU1mac) - First Principles of Computer Vision (video format).
+- [OpenCV: Camera Calibration](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html) - Practical camera calibration tutorial.
 
 ### 🍄 Photogrammetry
 
@@ -393,26 +394,19 @@ Infrastructure tools for image analysis workflows (and related).
 - [Pyxu](https://pyxu-org.github.io/) - Modular and Scalable Computational Imaging.
 - [DeepInverse](https://github.com/deepinv/deepinv) - Solve imaging inverse problems using deep learning.
 
-### 🧪 Quality Control
-
-- [Pixel Patrol](https://github.com/ida-mdc/pixel-patrol) - Scientific dataset quality control and data exploration.
-
 ### 🖌️ Image annotation
 
 - [makesense.ai](https://www.makesense.ai/) - Simple annotation app for YOLO models.
 - [supervision](https://github.com/roboflow/supervision) - Draw detections on an image or video.
-
-### 💲 Splines
-
-- [SplineBox](https://splinebox.readthedocs.io/en/latest/index.html) - Efficient splines fitting in Python.
 
 ### 🍭 Orientation
 
 - [OrientationJ](https://bigwww.epfl.ch/demo/orientationj/) - Fiji plugin.
 - [OrientationPy](https://epfl-center-for-imaging.gitlab.io/orientationpy/introduction.html) - 2D and 3D orientation measurements in Python.
 
-### 🕸️ Meshes
+### ✳️ Parametric shapes
 
+- [SplineBox](https://splinebox.readthedocs.io/en/latest/index.html) - Efficient splines fitting in Python.
 - [scikit-shapes](https://github.com/scikit-shapes/scikit-shapes) - Shape processing in Python.
 
 ### 🛠️ Utilities
@@ -425,3 +419,4 @@ Infrastructure tools for image analysis workflows (and related).
 - [imutils](https://github.com/PyImageSearch/imutils) - Image utilities.
 - [bioio](https://github.com/bioio-devs/bioio) - Read, write, and manage microscopy images.
 - [imantics](https://imantics.readthedocs.io/en/latest/) - Image annotation semantics.
+- [Pixel Patrol](https://github.com/ida-mdc/pixel-patrol) - Scientific dataset quality control and data exploration.
