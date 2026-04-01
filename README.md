@@ -32,7 +32,6 @@ Online courses to learn scientific image analysis:
 
 - [Image Processing and Analysis for Life Scientists](https://courseware.epfl.ch/courses/course-v1:EPFL+IPA4LS+2019_t3/about) - BIOP, EPFL.
 - [Introduction to Bioimage Analysis](https://bioimagebook.github.io/README.html) - Pete Bankheads.
-- [Image Processing with Python](https://datacarpentry.github.io/image-processing/) - Data Carpentry.
 - [Image data science with Python and Napari](https://biapol.github.io/Image-data-science-with-Python-and-Napari-EPFL2022/intro.html) - EPFL & TU Dresden.
 - [bioimagingguide.org](https://www.bioimagingguide.org/welcome.html) - Center for Open Bioimage Analysis.
 
@@ -49,11 +48,6 @@ General image analysis software:
 - [CellProfiler](https://cellprofiler.org/) - Open software for automated quantification of biological images.
 - [QuPath](https://qupath.github.io/) - Open Software for Bioimage Analysis.
 - [SimpleITK](https://github.com/SimpleITK/SimpleITK) - Open-source multi-dimensional image analysis.
-
-Python:
-
-- [Scikit-image](https://scikit-image.org/) - Image processing in Python.
-- [Introduction to Python for Image Analysis](https://epfl-center-for-imaging.github.io/python-intro-images/lab/index.html?path=python-intro%2FContent.ipynb) - Jupyterlite Notebook (no installation required).
 
 ## 🧑‍🤝‍🧑 Communities
 
