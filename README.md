@@ -412,11 +412,11 @@ Infrastructure tools for image analysis workflows (and related).
 
 ### 🛠️ Utilities
 
-- [tifffile](https://pypi.org/project/tifffile/) - Read and write TIFF images.
+- [tifffile](https://github.com/cgohlke/tifffile) - Read and write TIFF images.
 - [aicsimageio](https://github.com/AllenCellModeling/aicsimageio) - Image reading and metadata conversion.
 - [imageio](https://github.com/imageio/imageio) - Python library for reading and writing image data.
 - [Ngio](https://github.com/BioVisionCenter/ngio) - Python library to work with OME-Zarr files.
-- [patchify](https://pypi.org/project/patchify/) - Image patching (tiling).
+- [patchify](https://github.com/dovahcrow/patchify.py) - Image patching (tiling).
 - [pims](https://soft-matter.github.io/pims/) - Python Image Sequence.
 - [imutils](https://github.com/PyImageSearch/imutils) - Image utilities.
 - [bioio](https://github.com/bioio-devs/bioio) - Read, write, and manage microscopy images.
