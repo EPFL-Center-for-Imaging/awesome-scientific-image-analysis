@@ -118,6 +118,7 @@ Image registration is used to align multiple images, stabilize sequences by comp
 - [VoxelMorph](https://github.com/voxelmorph/voxelmorph) - Learning-based image registration.
 - [TurboReg](https://bigwww.epfl.ch/thevenaz/turboreg/) - Image stack (or movie) alignment in Fiji.
 - [Fast4DReg](https://imagej.net/plugins/fast4dreg) - 3D drift correction in Fiji.
+- [warpfield](https://github.com/danionella/warpfield) - GPU-accelerated, non-rigid registration.
 
 ## 🪄 Image denoising
 
