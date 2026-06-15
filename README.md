@@ -193,6 +193,7 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 ### Learning resources
 
 - [Visual image comparison](https://scikit-image.org/docs/stable/auto_examples/applications/plot_image_comparison.html#sphx-glr-auto-examples-applications-plot-image-comparison-py) - Tutorial from the Scikit-image website.
+- [open-scivis-datasets](http://klacansky.com/open-scivis-datasets/) - Example images (e.g., CT scans) for visualization.
 
 ### Software tools
 
