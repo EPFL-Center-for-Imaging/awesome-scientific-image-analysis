@@ -293,7 +293,7 @@ Python is a popular programming language for scientific image analysis.
 - [Scikit-image](https://scikit-image.org/docs/stable/) - Scientific image processing toolbox.
 - [scipy.ndimage](https://docs.scipy.org/doc/scipy/reference/ndimage.html) - Multidimensional image processing.
 - [opencv-python](https://github.com/opencv/opencv-python) - Computer vision toolbox.
-- [Introduction to Python for Image Analysis](https://epfl-center-for-imaging.github.io/python-intro-images/lab/index.html?path=Content.ipynb) - Jupyterlite Notebook (no installation required).
+- [Introduction to Python for Image Analysis](https://epfl-center-for-imaging.github.io/python-intro-images/lab/index.html?path=python-intro%2FContent.ipynb) - Jupyterlite Notebook (no installation required).
 - [Image processing with Python](https://datacarpentry.org/image-processing/) - Data Carpentry.
 
 ## 🔬 Fiji (ImageJ)
