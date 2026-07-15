@@ -314,6 +314,7 @@ Fiji is an open-source software for image processing and analysis. A wide range 
 - [PTBIOP](https://wiki-biop.epfl.ch/en/ipa/fiji/update-site) - BIOP Fiji Update Site.
 - [FFmpeg](https://imagej.net/plugins/ffmpeg-video-import-export) - Load videos into Fiji.
 - [Bio-Formats](https://imagej.net/formats/bio-formats) - Import data from many life sciences file formats.
+- [MiC](https://github.com/MultimodalImagingCenter/MiC) - Compute metrics (TP, FP, FN, Jaccard index...) on segmentation masks.
 
 ## 🏝️ Napari
 
