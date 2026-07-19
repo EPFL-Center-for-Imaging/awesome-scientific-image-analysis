@@ -223,13 +223,17 @@ OME-Zarr is a file format optimized for storing, viewing, and sharing large imag
 
 ### Software tools
 
-- [Neuroglancer](https://github.com/google/neuroglancer) - Browser-based visualizations compatible with large images (zarr).
-- [vizarr](https://github.com/hms-dbmi/vizarr) - Simple Zarr viewer.
-- [fileglancer](https://github.com/JaneliaSciComp/fileglancer) - Browse, share, and publish OME-Zarr data.
-- [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file) - Multiscale visualization in the browser.
 - [Fractal](https://fractal-analytics-platform.github.io/) - Framework to process bioimaging data at scale in the OME-Zarr format.
+- [Ngio](https://github.com/BioVisionCenter/ngio) - Python library to work with OME-Zarr files.
+- [fileglancer](https://github.com/JaneliaSciComp/fileglancer) - Browse, share, and publish OME-Zarr data.
+- [OME-NGFF Validator](https://ome.github.io/ome-ngff-validator/) - Validate OME-NGFF files.
+
+### Viewers
+
+- [Neuroglancer](https://github.com/google/neuroglancer) - Browser-based visualizations compatible with large images (zarr).
+- [Viv](https://github.com/hms-dbmi/viv?tab=readme-ov-file) - Multiscale visualization in the browser.
+- [vizarr](https://github.com/hms-dbmi/vizarr) - Simple Zarr viewer.
 - [Vol-E](https://volumeviewer.allencell.org/viewer) - Visualize OME-Zarr images in the web browser.
-- [OME-NGFF Validator](https://ome.github.io/ome-ngff-validator/) - Validate an OME-NGFF file.
 
 ## 🔋 Performance
 
@@ -416,7 +420,6 @@ Infrastructure tools for image analysis workflows (and related).
 
 - [tifffile](https://github.com/cgohlke/tifffile) - Read and write TIFF images.
 - [imageio](https://github.com/imageio/imageio) - Python library for reading and writing image data.
-- [Ngio](https://github.com/BioVisionCenter/ngio) - Python library to work with OME-Zarr files.
 - [pims](https://soft-matter.github.io/pims/) - Python Image Sequence.
 - [imutils](https://github.com/PyImageSearch/imutils) - Image utilities.
 - [bioio](https://github.com/bioio-devs/bioio) - Read, write, and manage microscopy images.
