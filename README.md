@@ -363,7 +363,6 @@ Infrastructure tools for image analysis workflows (and related).
 - [BAND](https://bandv1.denbi.uni-tuebingen.de/#/eosc-landingpage) - Bioimage ANalysis Desktop.
 - [Galaxy (EU)](https://live.usegalaxy.eu/) - Web-based platform for accessible computational research.
 - [Renkulab](https://renkulab.io/) - Data, Code, and Compute all under one roof.
-- [Hugging Face Spaces](https://huggingface.co/spaces) - Build, host, and share ML apps.
 - [BioImage.IO dev](https://dev.bioimage.io/) - Models, Datasets, and Applications for bioimage analysis.
 - [Imaging Server Kit](https://github.com/Imaging-Server-Kit/imaging-server-kit) - Run image processing algorithms via a web API.
 - [OMERO](https://www.openmicroscopy.org/omero/) - Platform for sharing, visualizing and managing microscopy data.
