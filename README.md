@@ -246,7 +246,6 @@ Performance optimization is the process of making code execution faster, more ef
 ### Learning resources
 
 - [GPU-Accelerated Image Analysis](https://biapol.github.io/PoL-BioImage-Analysis-TS-GPU-Accelerated-Image-Analysis/intro.html) - PoL Bio-Image Analysis Training School.
-- [System aspects - Basics of Computing Environments for Scientists](https://compenv.phys.ethz.ch/system_aspects/)
 
 ### Python libraries
 
