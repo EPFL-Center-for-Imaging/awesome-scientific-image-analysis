@@ -223,8 +223,6 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 
 OME-Zarr is a file format optimized for storing, viewing, and sharing large images. 
 
-### Learning resources
-
 - [An Introduction to OME-Zarr for Big Bioimaging Data](https://ome-zarr-book.readthedocs.io/) - Theory and practice of using the OME-Zarr format.
 
 ### Software tools
@@ -250,7 +248,7 @@ Performance optimization is the process of making code execution faster, more ef
 - [GPU-Accelerated Image Analysis](https://biapol.github.io/PoL-BioImage-Analysis-TS-GPU-Accelerated-Image-Analysis/intro.html) - PoL Bio-Image Analysis Training School.
 - [System aspects - Basics of Computing Environments for Scientists](https://compenv.phys.ethz.ch/system_aspects/)
 
-### Software tools
+### Python libraries
 
 - [pyclesperanto_prototype](https://github.com/clEsperanto/pyclesperanto_prototype) - GPU-accelerated bioimage analysis.
 - [Numba](https://numba.pydata.org/) - JIT compiler for Python and NumPy code.
@@ -310,12 +308,10 @@ Python is a popular programming language for scientific image analysis.
 
 Fiji is an open-source software for image processing and analysis. A wide range of community-developed plugins can enhance its functionality.
 
-### Learning resources
-
 - [Scientific Imaging Tutorials](https://imagej.net/imaging/index) - ImageJ.
 - [Image handling using Fiji - training materials](https://zenodo.org/records/14771563) - Joanna Pylvänäinen.
 
-### Plugins
+### Fiji plugins
 
 - [MorphoLibJ](https://imagej.net/plugins/morpholibj) - Morphological operations.
 - [DeepImageJ](https://deepimagej.github.io/) - Run deep learning models in Fiji.
@@ -333,7 +329,7 @@ Napari is a fast and interactive multi-dimensional image viewer for Python. It c
 - [Usage (napari.org)](https://napari.org/stable/usage.html) - Official usage documentation.
 - [Exploratory data analysis with napari](https://www.youtube.com/watch?v=9y5P6NLpLY4) - Peter Sobolewski, I2K Conference 2026.
 
-### Plugins
+### Napari plugins
 
 To explore all available plugins, browse the [Napari Hub](https://www.napari-hub.org/).
 
@@ -359,7 +355,7 @@ QuPath is an open software for bioimage analysis, often used to process and visu
 
 - [QuPath Documentation](https://qupath.readthedocs.io/en/stable/) - Official docs.
 
-### Extensions
+### QuPath extensions
 
 - [qupath-extension-sam](https://github.com/ksugar/qupath-extension-sam) - Segment Anything in QuPath.
 - [qupath-extension-cellpose](https://github.com/BIOP/qupath-extension-cellpose) - CellPose.
