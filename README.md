@@ -150,6 +150,7 @@ Object detection is the process of identifying and localizing objects within an 
 ### Bounding boxes
 
 - [Ultralytics YOLO - Object Detection](https://github.com/ultralytics/ultralytics) - YOLO models for object detection.
+- [nnDetection](https://github.com/MIC-DKFZ/nnDetection) - Self-configuring framework for 3D bounding box detection.
 
 ### Spots
 
@@ -242,8 +243,6 @@ OME-Zarr is a file format optimized for storing, viewing, and sharing large imag
 ## 🔋 Performance
 
 Performance optimization is the process of making code execution faster, more efficient, or using fewer computing resources.
-
-### Learning resources
 
 - [GPU-Accelerated Image Analysis](https://biapol.github.io/PoL-BioImage-Analysis-TS-GPU-Accelerated-Image-Analysis/intro.html) - PoL Bio-Image Analysis Training School.
 
