@@ -195,23 +195,29 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 - [Visual image comparison](https://scikit-image.org/docs/stable/auto_examples/applications/plot_image_comparison.html#sphx-glr-auto-examples-applications-plot-image-comparison-py) - Tutorial from the Scikit-image website.
 - [open-scivis-datasets](http://klacansky.com/open-scivis-datasets/) - Example images (e.g., CT scans) for visualization.
 
-### Software tools
+### Python-based tools
 
 - [Napari](https://napari.org/stable/) - Interactive nD image viewer in Python.
-- [ndv](https://github.com/pyapp-kit/ndv) - N-dimensional viewer with minimal dependencies.
 - [PyVista](https://pyvista.org/) - 3D visualizations in Python through VTK.
+- [ndv](https://github.com/pyapp-kit/ndv) - N-dimensional viewer with minimal dependencies.
 - [vedo](https://github.com/marcomusy/vedo) - Scientific visualizations of 3D objects.
 - [itkwidgets](https://github.com/InsightSoftwareConsortium/itkwidgets) - VTK viewer in Jupyter notebooks.
 - [stackview](https://github.com/haesleinhuepf/stackview/) - 3D stack visualization in Jupyter notebooks.
-- [Paraview](https://www.paraview.org/) - Scientific visualizations through VTK.
-- [tif2blender](https://github.com/oanegros/tif2blender) - Microscopy image visualization in Blender.
 - [fastplotlib](https://github.com/fastplotlib/fastplotlib) - Fast plotting library running on WGPU.
 - [K3D-jupyter](https://k3d-jupyter.org/index.html) - Jupyter Notebook 3D visualization package.
-- [Fiji - Volume Viewer](https://imagej.net/plugins/volume-viewer) - Ideal for Fiji users.
-- [Fiji - 3D Viewer](https://imagej.net/plugins/3d-viewer/) - Ideal for Fiji users.
-- [Fiji - MoBIE](https://imagej.net/plugins/mobie) - Fiji-based visualization tool for large images.
-- [Fiji - 3Dscript](https://imagej.net/plugins/3dscript) - 3D rendering animations in Fiji.
-- [Fiji - BigDataViewer](https://imagej.net/plugins/bdv/) - Ideal for big data.
+
+### Fiji-based tools
+
+- [3D Viewer](https://imagej.net/plugins/3d-viewer/) - Basic 3D image viewer.
+- [Volume Viewer](https://imagej.net/plugins/volume-viewer) - Image viewer with volume rendering capabilities.
+- [MoBIE](https://imagej.net/plugins/mobie) - Visualization tool for large images.
+- [BigDataViewer](https://imagej.net/plugins/bdv/) - 3D viewer optimized for large data sets.
+- [3Dscript](https://imagej.net/plugins/3dscript) - Render 3D animations in Fiji.
+
+### Other tools
+
+- [Paraview](https://www.paraview.org/) - Scientific visualizations through VTK.
+- [tif2blender](https://github.com/oanegros/tif2blender) - Microscopy image visualization in Blender.
 
 ## 🧩 OME-Zarr
 
