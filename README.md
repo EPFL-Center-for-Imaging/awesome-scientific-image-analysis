@@ -195,6 +195,7 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 
 - [Visual image comparison](https://scikit-image.org/docs/stable/auto_examples/applications/plot_image_comparison.html#sphx-glr-auto-examples-applications-plot-image-comparison-py) - Tutorial from the Scikit-image website.
 - [open-scivis-datasets](http://klacansky.com/open-scivis-datasets/) - Example images (e.g., CT scans) for visualization.
+- [QIM data repository](https://data.qim.dk/) - A collection of 3D micro-CT scans.
 
 ### Python-based tools
 
