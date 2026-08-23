@@ -421,6 +421,7 @@ Infrastructure tools for image analysis workflows (and related).
 
 - [tifffile](https://github.com/cgohlke/tifffile) - Read and write TIFF images.
 - [imageio](https://github.com/imageio/imageio) - Python library for reading and writing image data.
+- [PureJsImage](https://purejsimage.com/scientific-formats/) - Read, visualize, and process native-precision scientific rasters in browsers and Node.js.
 - [pims](https://soft-matter.github.io/pims/) - Python Image Sequence.
 - [imutils](https://github.com/PyImageSearch/imutils) - Image utilities.
 - [bioio](https://github.com/bioio-devs/bioio) - Read, write, and manage microscopy images.
