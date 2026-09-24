@@ -207,6 +207,7 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 - [stackview](https://github.com/haesleinhuepf/stackview/) - 3D stack visualization in Jupyter notebooks.
 - [fastplotlib](https://github.com/fastplotlib/fastplotlib) - Fast plotting library running on WGPU.
 - [K3D-jupyter](https://k3d-jupyter.org/index.html) - Jupyter Notebook 3D visualization package.
+- [Luxar](https://github.com/royerlab/luxar) - N-dimensional scientific data in the browser via gaussian splats.
 
 ### Fiji-based tools
 
