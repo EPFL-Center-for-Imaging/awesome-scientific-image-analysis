@@ -22,7 +22,7 @@ Scientific image analysis addresses issues related to the acquisition, processin
 - [🕊️ Open science](#-open-science)
 - [🐍 Python](#-python)
 - [🔬 Fiji (ImageJ)](#-fiji-imagej)
-- [🏝️ Napari](#-napari)
+- [🦠 Napari](#-napari)
 - [🧬 QuPath](#-qupath)
 - [🏗️ Infrastructure](#-infrastructure)
 - [🛸 Other](#-other)
@@ -234,6 +234,7 @@ OME-Zarr is a file format optimized for storing, viewing, and sharing large imag
 - [Ngio](https://github.com/BioVisionCenter/ngio) - Python library to work with OME-Zarr files.
 - [fileglancer](https://github.com/JaneliaSciComp/fileglancer) - Browse, share, and publish OME-Zarr data.
 - [OME-NGFF Validator](https://ome.github.io/ome-ngff-validator/) - Validate OME-NGFF files.
+- [OME figure](https://github.com/ome/figure) - Create publication figures from OME-Zarr data.
 
 ### Viewers
 
@@ -322,7 +323,7 @@ Fiji is an open-source software for image processing and analysis. A wide range 
 - [Bio-Formats](https://imagej.net/formats/bio-formats) - Import data from many life sciences file formats.
 - [MiC](https://github.com/MultimodalImagingCenter/MiC) - Compute metrics (TP, FP, FN, Jaccard index...) on segmentation masks.
 
-## 🏝️ Napari
+## 🦠 Napari
 
 Napari is a fast and interactive multi-dimensional image viewer for Python. It can be used for browsing, annotating, and analyzing scientific images.
 
