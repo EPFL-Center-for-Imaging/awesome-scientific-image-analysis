@@ -42,6 +42,10 @@ Courses in video format:
 - [Introduction to bioimage analysis](https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U&index=3) - Robert Haase.
 - [Microscopy Series](https://www.ibiology.org/online-biology-courses/microscopy-series/) - iBiology. Focused on microscopy techniques.
 
+Book format:
+
+- [Introduction to Computer Vision](https://arxiv.org/abs/2609.39627v1) - Stan Birchfield.
+
 General image analysis software:
 
 - [Fiji](https://fiji.sc/) - ImageJ, with “batteries-included”.
