@@ -370,7 +370,6 @@ Infrastructure tools for image analysis workflows (and related).
 ### 🤖 LLMs
 
 - [bia-bob](https://github.com/haesleinhuepf/bia-bob) - LLM-based assistant for interacting with image data.
-- [BioImage.IO Chatbot](https://github.com/bioimage-io/bioimageio-chatbot) - AI assistant specialized in bioimaging.
 
 ### 📷 Image acquisition
 
