@@ -82,8 +82,6 @@ Videos:
 
 Image segmentation aims to create a segmentation mask that identifies specific classes or objects. Techniques for image segmentation include thresholding, weakly supervised learning (e.g., Ilastik, Weka), and deep learning.
 
-### Learning resources
-
 - [Image segmentation](https://biapol.github.io/Image-data-science-with-Python-and-Napari-EPFL2022/day2d_image_segmentation/readme.html) - Image data science with Python and Napari.
 - [Image Segmentation](https://www.youtube.com/watch?v=onWJQY5oFhs&list=PL2zRqk16wsdop2EatuowXBX5C-r2FdyNt) - First Principles of Computer Vision (video format).
 - [Thresholding](https://bioimagebook.github.io/chapters/2-processing/3-thresholding/thresholding.html) - Introduction to Bioimage Analysis.
@@ -108,8 +106,6 @@ Image segmentation aims to create a segmentation mask that identifies specific c
 
 Image registration is used to align multiple images, stabilize sequences by compensating for camera movement, track object movement and deformation, and stitch multiple fields of view together.
 
-### Learning resources
-
 - [Image correlation - Theory](https://www.spam-project.dev/docs/tutorials/tutorial-02a-DIC-theory.html) - Introduction to optical flow (DIC).
 - [Intro to Image Registration](https://www.youtube.com/watch?v=zDaCVSXMIm4) - Overview by Ella Bahry (video format).
 - [Optical Flow](https://www.youtube.com/watch?v=lnXFcmLB7sM&list=PL2zRqk16wsdoYzrWStffqBAoUY8XdvatV) - First Principles of Computer Vision (video format).
@@ -128,8 +124,6 @@ Image registration is used to align multiple images, stabilize sequences by comp
 
 Image denoising enhances visual quality by removing noise, making structures more distinguishable and facilitating segmentation through thresholding.
 
-### Learning resources
-
 - [Noise](https://bioimagebook.github.io/chapters/3-fluorescence/3-formation_noise/formation_noise.html) - Chapter from the Introduction to Bioimage Analysis handbook.
 - [Denoising a picture](https://scikit-image.org/docs/stable/auto_examples/filters/plot_denoise.html) - Tutorial from the Scikit-image website.
 
@@ -145,8 +139,6 @@ Image denoising enhances visual quality by removing noise, making structures mor
 ## 🔍 Object detection
 
 Object detection is the process of identifying and localizing objects within an image or video using various shapes such as bounding boxes, keypoints, circles, or other geometric representations.
-
-### Learning resources
 
 - [C4W3L09 YOLO Algorithm](https://www.youtube.com/watch?v=9s_FpMpdYW8) - Introduction to YOLO by Andrew Ng (video format).
 - [Detecting Blobs](https://www.youtube.com/watch?v=zItstOggP7M) - First Principles of Computer Vision (video format).
@@ -171,8 +163,6 @@ Object detection is the process of identifying and localizing objects within an 
 
 Object tracking is the process of following objects across time in a video or image time series.
 
-### Learning resources
-
 - [Walkthrough (trackpy)](https://soft-matter.github.io/trackpy/dev/tutorial/walkthrough.html) - Introduction for Python users.
 - [Getting started with TrackMate](https://imagej.net/plugins/trackmate/tutorials/getting-started) - Introduction for Fiji users.
 
@@ -191,17 +181,13 @@ Object tracking is the process of following objects across time in a video or im
 
 ## 🌻 Visualization
 
-A variety of software tools are available for visualizing scientific images and their associated data.
-
-For a detailed comparison of 3D viewers, see *[3D Image Visualization software tools](./extra/visualization.md)*.
-
-### Learning resources
+A variety of software tools are available for visualizing scientific images and their associated data. For a comparison of 3D viewers, see *[3D Image Visualization software tools](./extra/visualization.md)*.
 
 - [Visual image comparison](https://scikit-image.org/docs/stable/auto_examples/applications/plot_image_comparison.html#sphx-glr-auto-examples-applications-plot-image-comparison-py) - Tutorial from the Scikit-image website.
 - [open-scivis-datasets](http://klacansky.com/open-scivis-datasets/) - Example images (e.g., CT scans) for visualization.
 - [QIM data repository](https://data.qim.dk/) - A collection of 3D micro-CT scans.
 
-### Python-based tools
+### Python-based
 
 - [Napari](https://napari.org/stable/) - Interactive nD image viewer in Python.
 - [PyVista](https://pyvista.org/) - 3D visualizations in Python through VTK.
@@ -213,7 +199,7 @@ For a detailed comparison of 3D viewers, see *[3D Image Visualization software t
 - [K3D-jupyter](https://k3d-jupyter.org/index.html) - Jupyter Notebook 3D visualization package.
 - [Luxar](https://github.com/royerlab/luxar) - N-dimensional scientific data in the browser via gaussian splats.
 
-### Fiji-based tools
+### Fiji-based
 
 - [3D Viewer](https://imagej.net/plugins/3d-viewer/) - Basic 3D image viewer.
 - [Volume Viewer](https://imagej.net/plugins/volume-viewer) - Image viewer with volume rendering capabilities.
