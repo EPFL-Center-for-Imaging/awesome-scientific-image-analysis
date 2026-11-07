@@ -29,14 +29,14 @@ Scientific image analysis addresses issues related to the acquisition, processin
 
 ## 🔖 Getting started
 
-Online courses to learn scientific image analysis:
+Online courses:
 
 - [Image Processing and Analysis for Life Scientists](https://courseware.epfl.ch/courses/course-v1:EPFL+IPA4LS+2019_t3/about) - BIOP, EPFL.
 - [Introduction to Bioimage Analysis](https://bioimagebook.github.io/README.html) - Pete Bankheads.
 - [Image data science with Python and Napari](https://biapol.github.io/Image-data-science-with-Python-and-Napari-EPFL2022/intro.html) - EPFL & TU Dresden.
 - [bioimagingguide.org](https://www.bioimagingguide.org/welcome.html) - Center for Open Bioimage Analysis.
 
-Courses in video format:
+Video format:
 
 - [First Principles of Computer Vision](https://www.youtube.com/channel/UCf0WB91t8Ky6AuYcQV0CcLw) - Columbia University.
 - [Introduction to bioimage analysis](https://www.youtube.com/watch?v=e-2DbkUwKk4&list=PL5ESQNfM5lc7SAMstEu082ivW4BDMvd0U&index=3) - Robert Haase.
@@ -46,7 +46,7 @@ Book format:
 
 - [Introduction to Computer Vision](https://arxiv.org/abs/2609.39627v1) - Stan Birchfield.
 
-General image analysis software:
+Generalist software:
 
 - [Fiji](https://fiji.sc/) - ImageJ, with “batteries-included”.
 - [Napari](https://napari.org/) - A fast and interactive multi-dimensional image viewer for Python.
@@ -61,19 +61,19 @@ General image analysis software:
 
 ## 📚 Learning resources
 
-### Curated lists
+Curated lists:
 
 - [Awesome Biological Image Analysis](https://github.com/hallvaaw/awesome-biological-image-analysis) - Image analysis techniques for biological research.
 - [Awesome Computer Vision](https://github.com/jbhuang0604/awesome-computer-vision) - Algorithms and tools for machine vision.
 - [Awesome Medical Imaging](https://github.com/fepegar/awesome-medical-imaging) - Research tools for medical imaging.
 
-### Papers
+Papers:
 
 - [2024 - Creating and troubleshooting microscopy analysis workflows: Common challenges and common solutions](https://onlinelibrary.wiley.com/doi/full/10.1111/jmi.13288) - Beth Cimini.
 - [2023 - Towards effective adoption of novel image analysis methods](https://www.nature.com/articles/s41592-023-01910-2) - Talley Lambert, Jennifer Waters.
 - [2022 - A Hitchhiker's guide through the bio-image analysis software universe](https://febs.onlinelibrary.wiley.com/doi/full/10.1002/1873-3468.14451) - Robert Haase et al.
 
-### Videos
+Videos:
 
 - [DigitalSreeni](https://www.youtube.com/c/DigitalSreeni) - Focused on Python and deep learning for image analysis.
 - [I2K Conference](https://www.youtube.com/@I2KConference) - Recordings from Virtual I2K conferences.
