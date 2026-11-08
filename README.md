@@ -220,12 +220,12 @@ OME-Zarr is a file format optimized for storing, viewing, and sharing large imag
 
 ### Software tools
 
-- [acquire-zarr](https://github.com/acquire-project/acquire-zarr) - Stream image data to multiscale OME-Zarr through C and Python APIs, using filesystem or S3-compatible storage. Random-access writing is not supported.
 - [Fractal](https://fractal-analytics-platform.github.io/) - Framework to process bioimaging data at scale in the OME-Zarr format.
 - [Ngio](https://github.com/BioVisionCenter/ngio) - Python library to work with OME-Zarr files.
 - [fileglancer](https://github.com/JaneliaSciComp/fileglancer) - Browse, share, and publish OME-Zarr data.
 - [OME-NGFF Validator](https://ome.github.io/ome-ngff-validator/) - Validate OME-NGFF files.
 - [OME figure](https://github.com/ome/figure) - Create publication figures from OME-Zarr data.
+- [acquire-zarr](https://github.com/acquire-project/acquire-zarr) - Stream image data to OME-Zarr through C and Python APIs.
 
 ### Viewers
 
